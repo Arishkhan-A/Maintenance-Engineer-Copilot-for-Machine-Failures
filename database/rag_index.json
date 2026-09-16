@@ -1,0 +1,2350 @@
+[
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_2",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "Technical Theory: Industrial Centrifugal Pumps & Fluid Dynamics",
+    "text": "Technical Theory: Industrial Centrifugal Pumps & Fluid Dynamics",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 63
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_3",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "1. Fundamental Principles & Governing Equations",
+    "text": "1. Fundamental Principles & Governing Equations\n\nCentrifugal pumps convert mechanical rotational energy from a driver (electric motor or turbine) into hydrodynamic energy using centrifugal force. Fluid enters axially through the pump suction eye and is accelerated radially outward by the rotating impeller vanes.",
+    "tags": [
+      "hydraulic",
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Centrifugal Pump",
+      "Electric Motor",
+      "Gas Turbine",
+      "Hydraulic Pump",
+      "Induction Motor",
+      "Motor",
+      "Pump",
+      "Steam Turbine",
+      "Turbine"
+    ],
+    "char_length": 313
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_4",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "Bernoulli's Equation and Energy Conversion",
+    "text": "Bernoulli's Equation and Energy Conversion\n\nThe conversion of kinetic energy to static pressure follows Bernoulli's principle along a streamline:\nP_1 / (rho * g) + V_1^2 / (2 * g) + Z_1 = P_2 / (rho * g) + V_2^2 / (2 * g) + Z_2 + h_loss\nAs fluid exits the impeller at high velocity, it passes through the expanding cross-sectional area of the volute casing or diffuser vanes, decelerating fluid velocity (V) and elevating static pressure (P).",
+    "tags": [
+      "hydraulic",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 442
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_5",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "Affinity Laws (Scaling Rules)",
+    "text": "Affinity Laws (Scaling Rules)\n\nFor a constant impeller diameter (D):\n- Flow rate: Q_1 / Q_2 = N_1 / N_2 (Proportional to shaft speed)\n- Total Head: H_1 / H_2 = (N_1 / N_2)^2 (Proportional to square of speed)\n- Power Absorbed: P_1 / P_2 = (N_1 / N_2)^3 (Proportional to cube of speed)",
+    "tags": [
+      "hydraulic",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 283
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_6",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "2. Component Architecture & Subsystems",
+    "text": "2. Component Architecture & Subsystems\n\n- Impeller: Closed, semi-open, or vortex designs with backward-curved vanes (optimal for head-capacity stability).\n- Casing / Volute: Spiral casing engineered to collect liquid discharged from the periphery of the impeller.\n- Mechanical Shaft Seal: Cartridge mechanical seal (API 682 Plan 11/53A) preventing pressurized process fluid leakage.\n- Shaft & Bearing Assembly: Angular contact thrust bearings (7314 BECBM) paired with deep groove radial bearings (6312) to absorb combined radial and axial hydraulic thrust.\n- Wear Rings: Replaceable casing and impeller wear rings maintaining tight clearance (0.25 mm - 0.40 mm) to limit high-pressure recirculation to suction.",
+    "tags": [
+      "bearing",
+      "hydraulic",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 710
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_7",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "3. Operating Parameters & Standard Thresholds",
+    "text": "3. Operating Parameters & Standard Thresholds\n\n- Operating Speed: 1450 to 2950 RPM\n- Discharge Pressure: 4.0 to 16.0 bar\n- Maximum Bearing Housing Temperature: 82\u00b0C (Alarm: 75\u00b0C, Trip: 85\u00b0C)\n- Permissible Vibration Velocity (ISO 10816-7 Category 1 / Group 2):\n  - Zone A/B (Good/Acceptable): < 3.0 mm/s RMS\n  - Zone C (Alert / High Risk): 3.0 to 5.0 mm/s RMS\n  - Zone D (Critical Trip): > 5.0 mm/s RMS\n- Minimum Continuous Stable Flow (MCSF): Typically 30% to 40% of Best Efficiency Point (BEP) flow.",
+    "tags": [
+      "bearing",
+      "hydraulic",
+      "theory",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 500
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_8",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "text": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 50
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_9",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "Cavitation Dynamics & NPSH Starvation",
+    "text": "Cavitation Dynamics & NPSH Starvation\n\nCavitation occurs when local static pressure falls below the fluid vapor pressure (P_local < P_vap), causing microscopic vapor bubbles to nucleate at the impeller suction eye. When these bubbles travel into higher-pressure zones along the vane, they collapse violently (implosion pressures up to 10,000 bar and local micro-jet velocities exceeding 1000 m/s), eroding metallic impeller material (pitting) and generating high-frequency acoustic emissions (broadband noise 5 kHz - 20 kHz) and severe suction line vibration.\nCondition: Net Positive Suction Head Available (NPSHa) must exceed NPSH Required (NPSHr) by a safety margin of at least 0.5 m to 1.0 m:\nMargin = NPSHa - NPSHr >= 0.8 m.",
+    "tags": [
+      "hydraulic",
+      "theory",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 728
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_10",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "Mechanical Seal Face Thermal Degradation & Dry Running",
+    "text": "Mechanical Seal Face Thermal Degradation & Dry Running\n\nDry running or lack of flush circulation vaporizes the fluid film between rotating silicon carbide and stationary carbon seal faces, resulting in thermal heat checking, blister formation, and elastomer Viton O-ring extrusion.",
+    "tags": [
+      "hydraulic",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 281
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_11",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "Shaft Deflection & Radial Bearing Overload",
+    "text": "Shaft Deflection & Radial Bearing Overload\n\nOperating below MCSF creates internal hydraulic recirculation and rotating stall, causing massive unbalanced radial forces (F_radial = K_r * rho * g * H * D_2 * b_2) that flex the shaft, leading to premature bearing cage spalling and seal leakage.",
+    "tags": [
+      "bearing",
+      "electrical",
+      "hydraulic",
+      "theory",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 291
+  },
+  {
+    "chunk_id": "centrifugal_pump_theory#sec_12",
+    "source_file": "centrifugal_pump_theory.txt",
+    "document_title": "Centrifugal Pump Theory",
+    "category": "theory",
+    "header": "5. Maintenance & Diagnostic Guidelines",
+    "text": "5. Maintenance & Diagnostic Guidelines\n\n- Check suction strainer differential pressure weekly (Delta-P < 0.35 bar).\n- Verify dynamic balancing of impeller per ISO 1940-1 Grade G 2.5.\n- Monitor mechanical seal flush barrier pressure (maintain 1.5 bar above seal chamber pressure for Plan 53A).\n- Measure oil temperature differential across bearing housing cooling jacket.",
+    "tags": [
+      "bearing",
+      "hydraulic",
+      "lubrication",
+      "theory",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 370
+  },
+  {
+    "chunk_id": "cnc_spindle_machining_theory#sec_2",
+    "source_file": "cnc_spindle_machining_theory.txt",
+    "document_title": "Cnc Spindle Machining Theory",
+    "category": "theory",
+    "header": "Technical Theory: CNC High-Speed Spindles & Machining Dynamics",
+    "text": "Technical Theory: CNC High-Speed Spindles & Machining Dynamics",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Spindle"
+    ],
+    "char_length": 62
+  },
+  {
+    "chunk_id": "cnc_spindle_machining_theory#sec_3",
+    "source_file": "cnc_spindle_machining_theory.txt",
+    "document_title": "Cnc Spindle Machining Theory",
+    "category": "theory",
+    "header": "1. Fundamental Principles & Governing Equations",
+    "text": "1. Fundamental Principles & Governing Equations\n\nHigh-speed motorized CNC spindles integrate the electric motor rotor directly onto the precision spindle shaft, supported by super-precision angular contact ceramic ball bearings. Machining stability is governed by the structural transfer function between tool tip dynamic compliance and cutting force regenerative feedback.",
+    "tags": [
+      "bearing",
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Spindle"
+    ],
+    "char_length": 373
+  },
+  {
+    "chunk_id": "cnc_spindle_machining_theory#sec_4",
+    "source_file": "cnc_spindle_machining_theory.txt",
+    "document_title": "Cnc Spindle Machining Theory",
+    "category": "theory",
+    "header": "Regenerative Chatter & Stability Lobe Theory",
+    "text": "Regenerative Chatter & Stability Lobe Theory\n\nSelf-excited machine tool vibration (\"regenerative chatter\") limits material removal rate (MRR). The boundary of unconditionally stable axial depth of cut (b_lim) is given by:\nb_lim = -1 / (2 * K_f * Re[G(omega_c)])\nwhere K_f is the cutting force coefficient and Re[G(omega_c)] is the real part of the frequency response function (FRF) at chatter frequency.\nOperating at tooth passing frequencies that coincide with resonant lobe pockets maximizes chatter-free cutting efficiency.",
+    "tags": [
+      "theory",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm",
+      "Spindle"
+    ],
+    "char_length": 526
+  },
+  {
+    "chunk_id": "cnc_spindle_machining_theory#sec_5",
+    "source_file": "cnc_spindle_machining_theory.txt",
+    "document_title": "Cnc Spindle Machining Theory",
+    "category": "theory",
+    "header": "2. Component Architecture & Subsystems",
+    "text": "2. Component Architecture & Subsystems\n\n- Hybrid Ceramic Bearings: Silicon nitride (Si3N4) balls with hardened steel rings (ABEC-7 / ABEC-9 / ISO P4), configured in tandem-back-to-back preloaded pairs.\n- Hydrostatic / Pneumatic Tool Clamping: Belleville disc spring pack generating 10 kN to 25 kN retention force on ISO/BT/HSK tool taper holders.\n- Thermal Expansion Jacket: Chilled water/glycol helical cooling sleeves wrapping the stator housing to limit axial thermal growth.\n- Air-Purge Sealing: Continuous 1.0 bar positive air purge through labyrinth seals preventing coolant and micro-chip ingestion into bearing cavities.",
+    "tags": [
+      "bearing",
+      "electrical",
+      "hydraulic",
+      "theory",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Spindle"
+    ],
+    "char_length": 628
+  },
+  {
+    "chunk_id": "cnc_spindle_machining_theory#sec_6",
+    "source_file": "cnc_spindle_machining_theory.txt",
+    "document_title": "Cnc Spindle Machining Theory",
+    "category": "theory",
+    "header": "3. Operating Parameters & Standard Thresholds",
+    "text": "3. Operating Parameters & Standard Thresholds\n\n- Rotational Speed: 6,000 to 24,000 RPM\n- Spindle Nose Radial Runout: < 0.002 mm (2 microns TIR)\n- Spindle Bearing Housing Temperature: 22\u00b0C to 45\u00b0C (Alarm: 50\u00b0C, Trip: 58\u00b0C)\n- Vibration RMS Severity (ISO 10816-3 Machine Class II):\n  - Normal (Precision): < 1.1 mm/s RMS\n  - Alert: 1.8 mm/s to 2.8 mm/s RMS\n  - Shutdown: > 4.5 mm/s RMS",
+    "tags": [
+      "bearing",
+      "theory",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm",
+      "Spindle"
+    ],
+    "char_length": 382
+  },
+  {
+    "chunk_id": "cnc_spindle_machining_theory#sec_7",
+    "source_file": "cnc_spindle_machining_theory.txt",
+    "document_title": "Cnc Spindle Machining Theory",
+    "category": "theory",
+    "header": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "text": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Spindle"
+    ],
+    "char_length": 50
+  },
+  {
+    "chunk_id": "cnc_spindle_machining_theory#sec_8",
+    "source_file": "cnc_spindle_machining_theory.txt",
+    "document_title": "Cnc Spindle Machining Theory",
+    "category": "theory",
+    "header": "Ceramic Bearing False Brinelling & Preload Loss",
+    "text": "Ceramic Bearing False Brinelling & Preload Loss\n\nImproper handling or shock impacts from tool collision generate localized micro-dents on bearing races (false brinelling). At high rotational speeds (DN factor > 1.5 million), uneven contact stress leads to cage fracture, rapid frictional overheating, thermal seizure, and irreversible spindle shaft taper eccentricity.",
+    "tags": [
+      "bearing",
+      "theory",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Spindle"
+    ],
+    "char_length": 368
+  },
+  {
+    "chunk_id": "cnc_spindle_machining_theory#sec_9",
+    "source_file": "cnc_spindle_machining_theory.txt",
+    "document_title": "Cnc Spindle Machining Theory",
+    "category": "theory",
+    "header": "Drawbar Belleville Spring Fatigue & Tool Pullout",
+    "text": "Drawbar Belleville Spring Fatigue & Tool Pullout\n\nContinuous rapid automatic tool changes (ATC) cause cyclic fatigue in the spring pack. When retention force drops below 70% of nominal rating, cutting vibrations induce micro-fretting corrosion on the HSK taper interface, degrading surface finish and causing catastrophic tool pullout during heavy milling.",
+    "tags": [
+      "theory",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm",
+      "Spindle"
+    ],
+    "char_length": 356
+  },
+  {
+    "chunk_id": "cnc_spindle_machining_theory#sec_10",
+    "source_file": "cnc_spindle_machining_theory.txt",
+    "document_title": "Cnc Spindle Machining Theory",
+    "category": "theory",
+    "header": "5. Maintenance & Diagnostic Guidelines",
+    "text": "5. Maintenance & Diagnostic Guidelines\n\n- Measure tool drawbar clamp force quarterly using a digital pull-force dynamometer gauge.\n- Perform high-speed dynamic balancing (G 0.4 per ISO 1940-1).\n- Monitor spindle cooling liquid temperature differential (Delta-T must stay between 2.0\u00b0C and 4.5\u00b0C).\n- Inspect labyrinth seal clean air pressure (minimum 0.8 bar uninterrupted).",
+    "tags": [
+      "hydraulic",
+      "theory",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Compressor",
+      "Pump",
+      "Spindle"
+    ],
+    "char_length": 373
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_2",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "Technical Theory: Three-Phase Induction Motors & Electromechanics",
+    "text": "Technical Theory: Three-Phase Induction Motors & Electromechanics",
+    "tags": [
+      "electrical",
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 65
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_3",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "1. Fundamental Principles & Governing Equations",
+    "text": "1. Fundamental Principles & Governing Equations\n\nThree-phase AC induction motors operate on Faraday's Law of Electromagnetic Induction and the Lorentz Force Principle. When balanced 3-phase sinusoidal voltages are applied to the stator windings, they establish a synchronously rotating magnetic field (RMF).",
+    "tags": [
+      "electrical",
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 307
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_4",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "Synchronous Speed and Slip Mechanics",
+    "text": "Synchronous Speed and Slip Mechanics\n\nThe synchronous speed of the stator RMF is given by:\nN_sync = (120 * f) / P\nwhere f is supply frequency (50 Hz or 60 Hz) and P is the number of magnetic poles.\nThe mechanical rotor speed (N_rotor) must lag synchronous speed to induce rotor currents; this relative lag is normalized as Slip (s):\ns = (N_sync - N_rotor) / N_sync\nNominal slip for NEMA Class B design: 1.5% to 4.0%.\nElectromagnetic Torque generated:\nT_em = (3 / omega_sync) * [ (V_th^2 * R_2' / s) / ( (R_th + R_2' / s)^2 + (X_th + X_2')^2 ) ]",
+    "tags": [
+      "electrical",
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 544
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_5",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "2. Component Architecture & Subsystems",
+    "text": "2. Component Architecture & Subsystems\n\n- Stator Core & Windings: Low-loss silicon steel laminations with Class F/H enameled copper magnet wire, vacuum-pressure impregnated (VPI) with epoxy resin.\n- Squirrel Cage Rotor: Die-cast aluminum or fabricated copper conductive bars shorted by end-rings, keyed to the central carbon-steel drive shaft.\n- Bearings: Drive-end (DE) deep groove ball bearing (e.g., 6312-2Z/C3) supporting radial loads; Non-drive-end (NDE) cylindrical roller (e.g., NU214) or spring-preloaded ball bearing absorbing thermal elongation.\n- Thermal Protection: Embedded PT100 RTDs or thermistors placed between stator phase coils in the winding slots.\n- Cooling Fan: Bi-directional plastic or cast aluminum TEFC (Totally Enclosed Fan Cooled) external fan.",
+    "tags": [
+      "bearing",
+      "electrical",
+      "hydraulic",
+      "lubrication",
+      "theory",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Pump"
+    ],
+    "char_length": 772
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_6",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "3. Operating Parameters & Standard Thresholds",
+    "text": "3. Operating Parameters & Standard Thresholds\n\n- Rated Voltage: 400V +/- 10%, 3-Phase, 50 Hz\n- Current Imbalance Limit: < 2.0% across all 3 phases (NEMA MG-1 standard). Voltage imbalance of 1% produces 6% to 10% current imbalance and massive rotor heating.\n- Maximum Stator Winding Temperature (Class F Insulation): 155\u00b0C ultimate rating, continuous alarm at 105\u00b0C, emergency trip at 130\u00b0C.\n- Permissible Vibration Velocity (ISO 10816-3 Group 1, Rigid Foundation):\n  - Normal (Zone A/B): < 2.8 mm/s RMS\n  - Alert (Zone C): 2.8 mm/s to 4.5 mm/s RMS\n  - Critical Trip (Zone D): > 4.5 mm/s RMS",
+    "tags": [
+      "electrical",
+      "theory",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 590
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_7",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "text": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 50
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_8",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "Stator Winding Insulation Thermal Breakdown (Arrhenius Degradation)",
+    "text": "Stator Winding Insulation Thermal Breakdown (Arrhenius Degradation)\n\nElectrical insulation life follows the Arrhenius chemical reaction rate model. Under Montsinger's / Dakin's rule-of-thumb:\nFor every 10\u00b0C continuous rise in operating temperature above thermal class rating, winding insulation life is halved:\nLife = Life_base * 2^(-Delta_T / 10)\nThermal aging embrittles dielectric varnish, inducing turn-to-turn micro-shorts, phase-to-phase flashovers, and catastrophic phase-to-ground dielectric punch-through.",
+    "tags": [
+      "electrical",
+      "theory",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Robotic Arm"
+    ],
+    "char_length": 514
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_9",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "4-Stage Bearing Damage Progression",
+    "text": "4-Stage Bearing Damage Progression\n\n1. Stage 1 (Ultrasonic / Spike Energy): Microscopic subsurface shear stress creates subsurface micro-cracks. Detectable only by high-frequency acoustic emission (20 kHz - 40 kHz) or PeakVue / HFE metrics.\n2. Stage 2 (Natural Frequency Resonance): Defects reach bearing race surface (pitting). Bearing natural resonance frequencies (500 Hz - 2000 Hz) excite with sidebands.\n3. Stage 3 (Defect Harmonic Frequencies): Characteristic bearing frequencies appear at 1X, 2X, 3X BPFO (Outer Race), BPFI (Inner Race), BSF (Ball Spin), and FTF (Fundamental Train/Cage).\n4. Stage 4 (Gross Mechanical Breakdown): 1X running speed vibration dominates with high broadband noise floor and thermal runaway. Seizure imminent within hours.",
+    "tags": [
+      "bearing",
+      "theory",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 757
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_10",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "Broken Rotor Bar Dynamics & Slip Sidebands",
+    "text": "Broken Rotor Bar Dynamics & Slip Sidebands\n\nThermal stress from repeated high-inertia starting causes fatigue cracking at rotor bar and end-ring joints. Broken bars disrupt rotor magnetic symmetry, creating modulation sidebands around the supply fundamental line frequency (f_L):\nf_sideband = f_L * (1 +/- 2 * s)\nWhen sideband amplitude rises to within 35 dB of fundamental current peak in Motor Current Signature Analysis (MCSA), multiple broken bars are confirmed.",
+    "tags": [
+      "electrical",
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 466
+  },
+  {
+    "chunk_id": "electric_motor_theory#sec_11",
+    "source_file": "electric_motor_theory.txt",
+    "document_title": "Electric Motor Theory",
+    "category": "theory",
+    "header": "5. Maintenance & Diagnostic Guidelines",
+    "text": "5. Maintenance & Diagnostic Guidelines\n\n- Perform Megohmmeter insulation resistance test annually (Acceptance criterion: R_ins > 100 MOhm at 1000V DC).\n- Greasing: Replenish polyurea or lithium complex grease (NLGI Grade 2) every 2,000 to 4,000 running hours based on bearing speed factor (d_m * N).\n- Laser align coupling to within 0.05 mm angular and offset tolerance.",
+    "tags": [
+      "bearing",
+      "lubrication",
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 370
+  },
+  {
+    "chunk_id": "industrial_robotics_theory#sec_2",
+    "source_file": "industrial_robotics_theory.txt",
+    "document_title": "Industrial Robotics Theory",
+    "category": "theory",
+    "header": "Technical Theory: 6-Axis Articulated Industrial Robots & Kinematics",
+    "text": "Technical Theory: 6-Axis Articulated Industrial Robots & Kinematics",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 67
+  },
+  {
+    "chunk_id": "industrial_robotics_theory#sec_3",
+    "source_file": "industrial_robotics_theory.txt",
+    "document_title": "Industrial Robotics Theory",
+    "category": "theory",
+    "header": "1. Fundamental Principles & Governing Equations",
+    "text": "1. Fundamental Principles & Governing Equations\n\nIndustrial 6-axis articulated robots utilize serial kinematic open chains with rotational revolute joints (J1 to J6). Coordinate spatial transformations between joint space theta = [theta_1, ..., theta_6] and Cartesian tool center point (TCP) position x = [x, y, z, roll, pitch, yaw] are governed by Denavit-Hartenberg (D-H) 4x4 homogenous transformation matrices.",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 413
+  },
+  {
+    "chunk_id": "industrial_robotics_theory#sec_4",
+    "source_file": "industrial_robotics_theory.txt",
+    "document_title": "Industrial Robotics Theory",
+    "category": "theory",
+    "header": "Forward and Inverse Kinematics",
+    "text": "Forward and Inverse Kinematics\n\nT_0_6 = Product(A_i(theta_i, d_i, a_i, alpha_i)) for i = 1 to 6\nDifferential motion is related by the geometric Jacobian matrix J(theta):\nv_tcp = J(theta) * d(theta)/dt\nTorque required per joint under external Cartesian force F:\ntau = J^T(theta) * F + M(theta) * d2(theta)/dt2 + C(theta, d(theta)/dt) + G(theta)",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 343
+  },
+  {
+    "chunk_id": "industrial_robotics_theory#sec_5",
+    "source_file": "industrial_robotics_theory.txt",
+    "document_title": "Industrial Robotics Theory",
+    "category": "theory",
+    "header": "2. Component Architecture & Subsystems",
+    "text": "2. Component Architecture & Subsystems\n\n- Cycloidal Drive & Harmonic Drive Gearboxes: Zero-backlash, high-ratio (50:1 to 160:1) reduction units at primary axes (J1-J3 cycloidal, J4-J6 harmonic drive).\n- AC Permanent Magnet Synchronous Servo Motors (PMSM): High torque-to-inertia ratio with absolute optical multiturn encoders (24-bit resolution).\n- Electromechanical Holding Brakes: Spring-loaded friction brakes holding robotic arm position when unpowered.\n- Internal Cable Harness (Dress Pack): Flexible robotic conduits carrying power lines, feedback buses, and pneumatic lines subject to continuous torsional flexure.",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Gearbox",
+      "Induction Motor",
+      "Industrial Robot",
+      "Motor",
+      "Robot",
+      "Robotic Arm",
+      "Speed Reducer"
+    ],
+    "char_length": 621
+  },
+  {
+    "chunk_id": "industrial_robotics_theory#sec_6",
+    "source_file": "industrial_robotics_theory.txt",
+    "document_title": "Industrial Robotics Theory",
+    "category": "theory",
+    "header": "3. Operating Parameters & Standard Thresholds",
+    "text": "3. Operating Parameters & Standard Thresholds\n\n- Joint Temperature: 30\u00b0C to 65\u00b0C (Alarm: 70\u00b0C, Critical Trip: 80\u00b0C)\n- Positional Repeatability (ISO 9283): +/- 0.03 mm to +/- 0.08 mm\n- Gearbox Backlash Threshold: Max 1.0 arcmin for wrist axes; 1.5 arcmin for base axes.\n- Motor RMS Phase Current: < 90% of nominal rated continuous stall current.",
+    "tags": [
+      "electrical",
+      "theory",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Gearbox",
+      "Induction Motor",
+      "Industrial Robot",
+      "Motor",
+      "Robot",
+      "Robotic Arm",
+      "Speed Reducer"
+    ],
+    "char_length": 344
+  },
+  {
+    "chunk_id": "industrial_robotics_theory#sec_7",
+    "source_file": "industrial_robotics_theory.txt",
+    "document_title": "Industrial Robotics Theory",
+    "category": "theory",
+    "header": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "text": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 50
+  },
+  {
+    "chunk_id": "industrial_robotics_theory#sec_8",
+    "source_file": "industrial_robotics_theory.txt",
+    "document_title": "Industrial Robotics Theory",
+    "category": "theory",
+    "header": "Cycloidal Drive Pin-Wheel Spalling & Backlash Degradation",
+    "text": "Cycloidal Drive Pin-Wheel Spalling & Backlash Degradation\n\nCycloidal drive reduction occurs through eccentric cam rollers pushing cycloid disc lobes against perimeter pin rings. High-acceleration emergency stops (E-stops) induce shear stress exceeding yield strength, initiating surface spalling on cycloid lobes. This induces backlash creep, leading to path tracking errors, trajectory oscillations, and joint vibration.",
+    "tags": [
+      "bearing",
+      "theory",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Industrial Robot",
+      "Motor",
+      "Pump",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 421
+  },
+  {
+    "chunk_id": "industrial_robotics_theory#sec_9",
+    "source_file": "industrial_robotics_theory.txt",
+    "document_title": "Industrial Robotics Theory",
+    "category": "theory",
+    "header": "Cable Harness Torsional Fatigue & Ground Faults",
+    "text": "Cable Harness Torsional Fatigue & Ground Faults\n\nWrist rotation (Axis 6 +/- 360\u00b0) exposes internal multi-core cables to alternating torsional shear strain. Over time, individual copper stranding undergoes work hardening and fatigue breakage, leading to intermittent encoder communication errors (loss of synchronization) or 24V bus short circuits.",
+    "tags": [
+      "electrical",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 347
+  },
+  {
+    "chunk_id": "industrial_robotics_theory#sec_10",
+    "source_file": "industrial_robotics_theory.txt",
+    "document_title": "Industrial Robotics Theory",
+    "category": "theory",
+    "header": "5. Maintenance & Diagnostic Guidelines",
+    "text": "5. Maintenance & Diagnostic Guidelines\n\n- Check and replenish gearbox lubricating grease (Molywhite RE No. 00 / Kyodo Yushi) every 5,000 running hours.\n- Perform joint brake slip holding torque test annually.\n- Inspect TCP calibration repeatability using laser tracker or dial test indicator.",
+    "tags": [
+      "electrical",
+      "lubrication",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Gearbox",
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm",
+      "Speed Reducer"
+    ],
+    "char_length": 292
+  },
+  {
+    "chunk_id": "rotary_screw_compressor_theory#sec_2",
+    "source_file": "rotary_screw_compressor_theory.txt",
+    "document_title": "Rotary Screw Compressor Theory",
+    "category": "theory",
+    "header": "Technical Theory: Rotary Screw Compressors & Gas Thermodynamics",
+    "text": "Technical Theory: Rotary Screw Compressors & Gas Thermodynamics",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 63
+  },
+  {
+    "chunk_id": "rotary_screw_compressor_theory#sec_3",
+    "source_file": "rotary_screw_compressor_theory.txt",
+    "document_title": "Rotary Screw Compressor Theory",
+    "category": "theory",
+    "header": "1. Fundamental Principles & Governing Equations",
+    "text": "1. Fundamental Principles & Governing Equations\n\nOil-flooded rotary screw compressors are positive-displacement machines that reduce air or gas volume between male (4-lobe) and female (6-lobe) intermeshing helical rotors housed in a precision-bored double-cylinder casing.",
+    "tags": [
+      "lubrication",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 272
+  },
+  {
+    "chunk_id": "rotary_screw_compressor_theory#sec_4",
+    "source_file": "rotary_screw_compressor_theory.txt",
+    "document_title": "Rotary Screw Compressor Theory",
+    "category": "theory",
+    "header": "Isentropic Compression Process",
+    "text": "Isentropic Compression Process\n\nThermodynamic compression approximates polytropic/isentropic gas compression:\nP_1 * V_1^k = P_2 * V_2^k\nwhere k is the polytropic exponent (k approx 1.25 - 1.35 with synthetic oil cooling).\nTheoretical discharge temperature:\nT_2 = T_1 * (P_2 / P_1)^((k - 1) / k)\nThe injected oil acts as a heat sink, sealing fluid across rotor blowholes, and lubricant for rolling element bearings.",
+    "tags": [
+      "bearing",
+      "hydraulic",
+      "lubrication",
+      "theory",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 414
+  },
+  {
+    "chunk_id": "rotary_screw_compressor_theory#sec_5",
+    "source_file": "rotary_screw_compressor_theory.txt",
+    "document_title": "Rotary Screw Compressor Theory",
+    "category": "theory",
+    "header": "2. Component Architecture & Subsystems",
+    "text": "2. Component Architecture & Subsystems\n\n- Helical Rotors: Asymmetric profile rotors with precision ground tooth surfaces maintaining clearance of 0.03 mm - 0.06 mm.\n- Oil Separator Vessel: Two-stage mechanical cyclone impingement and coalescing filter element reducing carry-over to < 3 mg/m\u00b3.\n- Thermostatic Bypass Valve: Modulating 3-way valve maintaining oil temperature above dew point (min 68\u00b0C) to prevent moisture condensation in oil reservoir.\n- Inlet Modulation / Unloader Valve: Pneumatic servo valve regulating suction flow during unload transitions.\n- Aftercooler: Air-cooled or water-cooled fin-tube heat exchanger with automatic electronic condensate drain.",
+    "tags": [
+      "hydraulic",
+      "lubrication",
+      "theory",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 671
+  },
+  {
+    "chunk_id": "rotary_screw_compressor_theory#sec_6",
+    "source_file": "rotary_screw_compressor_theory.txt",
+    "document_title": "Rotary Screw Compressor Theory",
+    "category": "theory",
+    "header": "3. Operating Parameters & Standard Thresholds",
+    "text": "3. Operating Parameters & Standard Thresholds\n\n- Working Pressure: 7.0 to 13.0 bar\n- Discharge Air-End Temperature: 78\u00b0C to 92\u00b0C (Warning: 100\u00b0C, Safety Trip: 108\u00b0C)\n- Oil Differential Pressure (Delta-P across separator element): < 0.8 bar (Replace element when Delta-P > 1.0 bar).\n- Vibration Severity Limits (ISO 10816-3):\n  - Normal: < 3.5 mm/s RMS\n  - Alert: 3.5 mm/s to 5.5 mm/s RMS\n  - Shutdown: > 7.1 mm/s RMS",
+    "tags": [
+      "hydraulic",
+      "lubrication",
+      "theory",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm",
+      "Rotary Screw"
+    ],
+    "char_length": 416
+  },
+  {
+    "chunk_id": "rotary_screw_compressor_theory#sec_7",
+    "source_file": "rotary_screw_compressor_theory.txt",
+    "document_title": "Rotary Screw Compressor Theory",
+    "category": "theory",
+    "header": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "text": "4. Theoretical Failure Modes & Physical Mechanisms",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 50
+  },
+  {
+    "chunk_id": "rotary_screw_compressor_theory#sec_8",
+    "source_file": "rotary_screw_compressor_theory.txt",
+    "document_title": "Rotary Screw Compressor Theory",
+    "category": "theory",
+    "header": "Thermal Runaway & Rotor Clashing",
+    "text": "Thermal Runaway & Rotor Clashing\n\nIf oil cooling flow is starved (e.g., clogged oil cooler radiator fins or seized thermostatic element), discharge temperature escalates past 105\u00b0C. Asymmetric thermal expansion of the male rotor causes loss of axial and radial clearances, leading to high-speed metal-to-metal contact (\"rotor clashing\"), rotor seizing, and complete airend destruction.",
+    "tags": [
+      "lubrication",
+      "theory",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 385
+  },
+  {
+    "chunk_id": "rotary_screw_compressor_theory#sec_9",
+    "source_file": "rotary_screw_compressor_theory.txt",
+    "document_title": "Rotary Screw Compressor Theory",
+    "category": "theory",
+    "header": "Moisture Condensation & Oil Emulsification",
+    "text": "Moisture Condensation & Oil Emulsification\n\nOperating at low duty cycle or ambient humidity with oil temp < 65\u00b0C allows compressed water vapor to condense inside the sump. Water contaminates polyalphaolefin (PAO) synthetic oil, collapsing oil film thickness (lambda < 1.0) and accelerating bearing fatigue spalling.",
+    "tags": [
+      "bearing",
+      "lubrication",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 315
+  },
+  {
+    "chunk_id": "rotary_screw_compressor_theory#sec_10",
+    "source_file": "rotary_screw_compressor_theory.txt",
+    "document_title": "Rotary Screw Compressor Theory",
+    "category": "theory",
+    "header": "5. Maintenance & Diagnostic Guidelines",
+    "text": "5. Maintenance & Diagnostic Guidelines\n\n- Replace oil separator coalescing element every 4,000 operating hours.\n- Perform oil chemical degradation analysis (Total Acid Number TAN < 1.0 mg KOH/g, kinematic viscosity at 40\u00b0C within +/- 10% of ISO VG 46 baseline).\n- Inspect minimum pressure valve (MPV) spring tension and check valve seal integrity.",
+    "tags": [
+      "hydraulic",
+      "lubrication",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Pump",
+      "Rotary Screw"
+    ],
+    "char_length": 347
+  },
+  {
+    "chunk_id": "compressor_manual#sec_2",
+    "source_file": "compressor_manual.txt",
+    "document_title": "Compressor Manual",
+    "category": "manual",
+    "header": "Technical Manual: Rotary Screw Industrial Air Compressor (Model: SCR-CMP-620)",
+    "text": "Technical Manual: Rotary Screw Industrial Air Compressor (Model: SCR-CMP-620)",
+    "tags": [],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw",
+      "Rotary Screw Industrial Air Compressor"
+    ],
+    "char_length": 77
+  },
+  {
+    "chunk_id": "compressor_manual#sec_3",
+    "source_file": "compressor_manual.txt",
+    "document_title": "Compressor Manual",
+    "category": "manual",
+    "header": "1. Operating Envelope",
+    "text": "1. Operating Envelope\n\n- Capacity: 25 m\u00b3/min FAD (Free Air Delivery)\n- Maximum Discharge Pressure: 8.5 - 12.5 bar\n- Normal Airend Discharge Temperature: 78\u00b0C - 92\u00b0C (Warning: 98\u00b0C, Emergency Trip: 105\u00b0C)\n- Ambient Temperature Range: 5\u00b0C to 45\u00b0C\n- Main Drive Motor: 110 kW TEFC Induction motor, 2960 RPM direct coupled",
+    "tags": [
+      "bearing",
+      "hydraulic",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Induction Motor",
+      "Main Drive Motor",
+      "Motor",
+      "Pump",
+      "Rotary Screw"
+    ],
+    "char_length": 317
+  },
+  {
+    "chunk_id": "compressor_manual#sec_4",
+    "source_file": "compressor_manual.txt",
+    "document_title": "Compressor Manual",
+    "category": "manual",
+    "header": "2. Rotor & Bearing Geometry",
+    "text": "2. Rotor & Bearing Geometry\n\n- Male Rotor: 5-lobe profile, forged steel with ceramic anti-friction coating\n- Female Rotor: 6-flute profile, high-strength spheroidal graphite cast iron\n- Bearing arrangement: Roller bearings at intake, paired angular contact bearings at discharge\n- Clearance: Inter-lobe clearance 0.04 - 0.06 mm; End-face discharge clearance 0.035 mm",
+    "tags": [
+      "bearing"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 366
+  },
+  {
+    "chunk_id": "compressor_manual#sec_5",
+    "source_file": "compressor_manual.txt",
+    "document_title": "Compressor Manual",
+    "category": "manual",
+    "header": "3. Servicing & Component Replacement",
+    "text": "3. Servicing & Component Replacement",
+    "tags": [],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 36
+  },
+  {
+    "chunk_id": "compressor_manual#sec_6",
+    "source_file": "compressor_manual.txt",
+    "document_title": "Compressor Manual",
+    "category": "manual",
+    "header": "Oil Separator Element Replacement",
+    "text": "Oil Separator Element Replacement\n\n- Service life: 4,000 hours or when pressure drop across separator exceeds 0.8 bar.\n- Residual oil content: Must remain below 3 ppm w/w in compressed discharge air.",
+    "tags": [
+      "hydraulic",
+      "lubrication"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Pump",
+      "Rotary Screw"
+    ],
+    "char_length": 199
+  },
+  {
+    "chunk_id": "compressor_manual#sec_7",
+    "source_file": "compressor_manual.txt",
+    "document_title": "Compressor Manual",
+    "category": "manual",
+    "header": "Minimum Pressure Check Valve (MPV)",
+    "text": "Minimum Pressure Check Valve (MPV)\n\n- Inspect valve disc and spring every 8,000 operating hours.\n- Set crack open pressure at 4.2 bar gauge to preserve internal lubrication pressure before system builds header pressure.",
+    "tags": [
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Pump",
+      "Rotary Screw"
+    ],
+    "char_length": 219
+  },
+  {
+    "chunk_id": "compressor_manual#sec_8",
+    "source_file": "compressor_manual.txt",
+    "document_title": "Compressor Manual",
+    "category": "manual",
+    "header": "Thermostatic Bypass Valve",
+    "text": "Thermostatic Bypass Valve\n\n- Opens flow to oil cooler when synthetic fluid exceeds 71\u00b0C. If valve sticks closed, rapid thermal runaway occurs within 15 minutes of full-load operation.",
+    "tags": [
+      "hydraulic",
+      "lubrication",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw"
+    ],
+    "char_length": 183
+  },
+  {
+    "chunk_id": "compressor_manual#sec_9",
+    "source_file": "compressor_manual.txt",
+    "document_title": "Compressor Manual",
+    "category": "manual",
+    "header": "4. Error Codes & Telemetry Signals",
+    "text": "4. Error Codes & Telemetry Signals\n\n- ERR-CMP-01: High airend discharge temperature (Trip at 105\u00b0C).\n- ERR-CMP-02: Oil separator high differential pressure (> 1.0 bar).\n- ERR-CMP-03: Excessive airend vibration velocity (> 6.5 mm/s RMS).",
+    "tags": [
+      "hydraulic",
+      "lubrication",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm",
+      "Rotary Screw"
+    ],
+    "char_length": 236
+  },
+  {
+    "chunk_id": "motor_manual#sec_2",
+    "source_file": "motor_manual.txt",
+    "document_title": "Motor Manual",
+    "category": "manual",
+    "header": "Technical Manual: Industrial Electric Drive Motor (Model: IND-MTR-450)",
+    "text": "Technical Manual: Industrial Electric Drive Motor (Model: IND-MTR-450)",
+    "tags": [],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Industrial Electric Drive Motor",
+      "Motor"
+    ],
+    "char_length": 70
+  },
+  {
+    "chunk_id": "motor_manual#sec_3",
+    "source_file": "motor_manual.txt",
+    "document_title": "Motor Manual",
+    "category": "manual",
+    "header": "1. Specifications",
+    "text": "1. Specifications\n\n- Rated Power: 45 kW\n- Operating Voltage: 400V AC, 3-Phase, 50 Hz\n- Nominal Operating RPM: 1450 - 2800 RPM\n- Nominal Current: 38 - 52 A (Full load: 60 A max)\n- Maximum Operating Temperature: 90\u00b0C (Class F insulation, alarm threshold: 85\u00b0C)\n- Permissible Vibration Velocity (RMS): \n  - Normal: < 2.8 mm/s\n  - Alert / High Risk: 4.5 mm/s to 7.1 mm/s\n  - Critical Trip: > 7.1 mm/s (ISO 10816-3 Group 1)",
+    "tags": [
+      "electrical",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 418
+  },
+  {
+    "chunk_id": "motor_manual#sec_4",
+    "source_file": "motor_manual.txt",
+    "document_title": "Motor Manual",
+    "category": "manual",
+    "header": "2. Component Architecture",
+    "text": "2. Component Architecture\n\n- Drive-end (DE) bearing: Deep groove ball bearing 6312-C3\n- Non-drive-end (NDE) bearing: Cylindrical roller bearing NU310\n- Stator winding resistance: 0.42 Ohms balanced across phases\n- Forced-air cooling fan: 0.75 kW integral fan assembly",
+    "tags": [
+      "bearing",
+      "electrical",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 267
+  },
+  {
+    "chunk_id": "motor_manual#sec_6",
+    "source_file": "motor_manual.txt",
+    "document_title": "Motor Manual",
+    "category": "manual",
+    "header": "Routine Bearing Lubrication",
+    "text": "Routine Bearing Lubrication\n\n- Interval: Every 2,000 operating hours.\n- Grease Specification: Lithium complex grease (NLGI Grade 2, drop point > 260\u00b0C).\n- Quantity: 25g per bearing housing. Clean grease relief port prior to replenishment.",
+    "tags": [
+      "bearing",
+      "lubrication"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 238
+  },
+  {
+    "chunk_id": "motor_manual#sec_7",
+    "source_file": "motor_manual.txt",
+    "document_title": "Motor Manual",
+    "category": "manual",
+    "header": "Winding Insulation Verification",
+    "text": "Winding Insulation Verification\n\n- Test: Megohmmeter test at 1000V DC.\n- Minimum Acceptance: > 100 Megaohms cold, > 10 Megaohms hot.",
+    "tags": [
+      "electrical"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 132
+  },
+  {
+    "chunk_id": "motor_manual#sec_8",
+    "source_file": "motor_manual.txt",
+    "document_title": "Motor Manual",
+    "category": "manual",
+    "header": "Rotor Dynamic Balancing",
+    "text": "Rotor Dynamic Balancing\n\n- Required when overall unbalance vibration at 1X rotational frequency exceeds 4.0 mm/s.\n- Balance quality grade: G 2.5 per ISO 1940-1.",
+    "tags": [
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 160
+  },
+  {
+    "chunk_id": "motor_manual#sec_9",
+    "source_file": "motor_manual.txt",
+    "document_title": "Motor Manual",
+    "category": "manual",
+    "header": "4. Error Codes & Symptoms",
+    "text": "4. Error Codes & Symptoms\n\n- ERR-MTR-01: Stator thermal overload. Stator RTD > 95\u00b0C. Immediate load shed required.\n- ERR-MTR-02: Phase current imbalance > 10%. Check supply contactor and VFD output.\n- ERR-MTR-03: Bearing high-frequency spike energy (HFE/peak vue) > 2.5 g-pk. Indicates cage micro-spalling or lack of lubrication.",
+    "tags": [
+      "bearing",
+      "electrical"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor"
+    ],
+    "char_length": 329
+  },
+  {
+    "chunk_id": "pump_manual#sec_2",
+    "source_file": "pump_manual.txt",
+    "document_title": "Pump Manual",
+    "category": "manual",
+    "header": "Technical Manual: Industrial Multistage Hydraulic Pump (Model: HYD-PMP-800)",
+    "text": "Technical Manual: Industrial Multistage Hydraulic Pump (Model: HYD-PMP-800)",
+    "tags": [
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Hydraulic System",
+      "Industrial Multistage Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 75
+  },
+  {
+    "chunk_id": "pump_manual#sec_3",
+    "source_file": "pump_manual.txt",
+    "document_title": "Pump Manual",
+    "category": "manual",
+    "header": "1. Operating Parameters",
+    "text": "1. Operating Parameters\n\n- Maximum Flow Rate: 120 m\u00b3/h\n- Working Pressure Range: 18 - 42 bar (Differential pressure threshold: 5 bar deviation)\n- Permissible Fluid Temperature: 15\u00b0C - 75\u00b0C (Alarm at 78\u00b0C, shutdown at 85\u00b0C)\n- Operating Speed: 1450 - 1780 RPM\n- Mechanical Seal Flush Rate: Plan 11 or Plan 32 with clean barrier fluid at 2 bar above suction pressure",
+    "tags": [
+      "hydraulic",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 363
+  },
+  {
+    "chunk_id": "pump_manual#sec_4",
+    "source_file": "pump_manual.txt",
+    "document_title": "Pump Manual",
+    "category": "manual",
+    "header": "2. Critical Assemblies & Tolerances",
+    "text": "2. Critical Assemblies & Tolerances\n\n- Impeller Clearance: Radial runout within 0.05 mm\n- Mechanical Seals: Tungsten carbide vs. silicon carbide primary faces\n- Wear Rings: Replace when diametrical clearance exceeds 0.45 mm\n- Thrust Bearings: Angular contact duplex ball bearings 7314-BEP",
+    "tags": [
+      "bearing",
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 288
+  },
+  {
+    "chunk_id": "pump_manual#sec_6",
+    "source_file": "pump_manual.txt",
+    "document_title": "Pump Manual",
+    "category": "manual",
+    "header": "Cavitation Prevention & NPSH Verification",
+    "text": "Cavitation Prevention & NPSH Verification\n\n- If discharge pressure oscillates with high-frequency noise resembling gravel pumping, inspect suction strainer delta-P.\n- Clean suction strainer if differential pressure exceeds 0.8 bar.",
+    "tags": [
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 231
+  },
+  {
+    "chunk_id": "pump_manual#sec_7",
+    "source_file": "pump_manual.txt",
+    "document_title": "Pump Manual",
+    "category": "manual",
+    "header": "Mechanical Seal Overhaul",
+    "text": "Mechanical Seal Overhaul\n\n- Inspect seal face flatness using monochromatic light. Max permissible waviness: 2 helium light bands (0.6 microns).\n- Replace O-rings with fluoroelastomer (Viton) seals rated for 150\u00b0C.",
+    "tags": [
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Pump"
+    ],
+    "char_length": 213
+  },
+  {
+    "chunk_id": "pump_manual#sec_8",
+    "source_file": "pump_manual.txt",
+    "document_title": "Pump Manual",
+    "category": "manual",
+    "header": "Oil Reservoir Management",
+    "text": "Oil Reservoir Management\n\n- Lubricant: ISO VG 46 mineral hydraulic fluid.\n- Filter micron rating: Beta 1000 >= 10 micron.\n- Particle count limit: ISO 4406 cleanliness code 17/15/12 max.",
+    "tags": [
+      "hydraulic",
+      "lubrication"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 185
+  },
+  {
+    "chunk_id": "pump_manual#sec_9",
+    "source_file": "pump_manual.txt",
+    "document_title": "Pump Manual",
+    "category": "manual",
+    "header": "4. Error Codes & Diagnostic Rules",
+    "text": "4. Error Codes & Diagnostic Rules\n\n- ERR-PMP-01: Low suction head / Cavitation risk. Suction pressure < 1.2 bar absolute.\n- ERR-PMP-02: Excessive casing vibration. Axial RMS velocity > 6.0 mm/s. Indicates misalignment or bent shaft.\n- ERR-PMP-03: Seal barrier pressure loss. Barrier fluid < suction pressure + 1.5 bar.",
+    "tags": [
+      "hydraulic",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 318
+  },
+  {
+    "chunk_id": "robotic_arm_manual#sec_2",
+    "source_file": "robotic_arm_manual.txt",
+    "document_title": "Robotic Arm Manual",
+    "category": "manual",
+    "header": "Technical Manual: 6-Axis Articulated Industrial Robotic Arm (Model: ROB-ARM-700)",
+    "text": "Technical Manual: 6-Axis Articulated Industrial Robotic Arm (Model: ROB-ARM-700)",
+    "tags": [],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 80
+  },
+  {
+    "chunk_id": "robotic_arm_manual#sec_3",
+    "source_file": "robotic_arm_manual.txt",
+    "document_title": "Robotic Arm Manual",
+    "category": "manual",
+    "header": "1. Specifications & Payload",
+    "text": "1. Specifications & Payload\n\n- Nominal Payload Capacity: 50 kg\n- Reach: 2,050 mm\n- Repeatability: \u00b1 0.03 mm\n- Servomotor Bus Voltage: 560V DC\n- Axis J1-J3 Max Speed: 180\u00b0/sec; Axis J4-J6 Max Speed: 320\u00b0/sec\n- Nominal Motor Temperature: 45\u00b0C - 70\u00b0C (Thermal alarm: 80\u00b0C)\n- Permissible Harmonic Drive / Gearbox Vibration: < 1.5 mm/s RMS",
+    "tags": [
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Gearbox",
+      "Induction Motor",
+      "Industrial Robot",
+      "Motor",
+      "Nominal Motor",
+      "Pump",
+      "Robot",
+      "Robotic Arm",
+      "Speed Reducer"
+    ],
+    "char_length": 334
+  },
+  {
+    "chunk_id": "robotic_arm_manual#sec_4",
+    "source_file": "robotic_arm_manual.txt",
+    "document_title": "Robotic Arm Manual",
+    "category": "manual",
+    "header": "2. Joint & Drive Train Architecture",
+    "text": "2. Joint & Drive Train Architecture\n\n- Harmonic Drive Reducers on wrist axes (J4, J5, J6)\n- Cycloidal Precision Reducers on main base axes (J1, J2, J3)\n- Absolute Optical Encoders (24-bit multi-turn resolution)\n- Fail-safe electromagnetic disc brakes on all 6 axes",
+    "tags": [],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 264
+  },
+  {
+    "chunk_id": "robotic_arm_manual#sec_5",
+    "source_file": "robotic_arm_manual.txt",
+    "document_title": "Robotic Arm Manual",
+    "category": "manual",
+    "header": "3. Maintenance Protocols & Overhaul",
+    "text": "3. Maintenance Protocols & Overhaul",
+    "tags": [],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 35
+  },
+  {
+    "chunk_id": "robotic_arm_manual#sec_6",
+    "source_file": "robotic_arm_manual.txt",
+    "document_title": "Robotic Arm Manual",
+    "category": "manual",
+    "header": "Cycloidal Gearbox Lubrication",
+    "text": "Cycloidal Gearbox Lubrication\n\n- Lubricant: Molywhite RE No. 00 synthetic grease.\n- Replacement interval: Every 5,000 operational hours or 12 months.\n- Grease replenishment pressure: Maximum 0.3 bar to prevent blowing lip seals.",
+    "tags": [
+      "hydraulic",
+      "lubrication"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Cycloidal Gearbox",
+      "Gearbox",
+      "Industrial Robot",
+      "Pump",
+      "Robot",
+      "Robotic Arm",
+      "Speed Reducer"
+    ],
+    "char_length": 228
+  },
+  {
+    "chunk_id": "robotic_arm_manual#sec_7",
+    "source_file": "robotic_arm_manual.txt",
+    "document_title": "Robotic Arm Manual",
+    "category": "manual",
+    "header": "Axis Backlash Calibration",
+    "text": "Axis Backlash Calibration\n\n- Measure angular backlash using dial indicator mounted on robot faceplate.\n- Re-tune servo gain parameters if backlash exceeds 0.08 arc-minutes.",
+    "tags": [],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 172
+  },
+  {
+    "chunk_id": "robotic_arm_manual#sec_8",
+    "source_file": "robotic_arm_manual.txt",
+    "document_title": "Robotic Arm Manual",
+    "category": "manual",
+    "header": "Cable Harness & Flex Dress Pack",
+    "text": "Cable Harness & Flex Dress Pack\n\n- Inspect robot dress pack for outer polyurethane sheath chafing every 1,000 hours.\n- Perform high-pot insulation resistance test (> 50 Megaohms at 500V DC).",
+    "tags": [],
+    "applicable_machines": [
+      "Industrial Robot",
+      "Robot",
+      "Robotic Arm"
+    ],
+    "char_length": 190
+  },
+  {
+    "chunk_id": "robotic_arm_manual#sec_9",
+    "source_file": "robotic_arm_manual.txt",
+    "document_title": "Robotic Arm Manual",
+    "category": "manual",
+    "header": "4. Diagnostic Trouble Codes (DTC)",
+    "text": "4. Diagnostic Trouble Codes (DTC)\n\n- ERR-ROB-01: Joint 2/3 servomotor thermal overload (> 85\u00b0C).\n- ERR-ROB-02: Cycloidal gearbox excessive vibration / mechanical backlash surge (> 2.8 mm/s).\n- ERR-ROB-03: Brake release solenoid current fault.",
+    "tags": [
+      "electrical",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Gearbox",
+      "Induction Motor",
+      "Industrial Robot",
+      "Motor",
+      "Pump",
+      "Robot",
+      "Robotic Arm",
+      "Speed Reducer"
+    ],
+    "char_length": 242
+  },
+  {
+    "chunk_id": "electrical_guide#sec_2",
+    "source_file": "electrical_guide.txt",
+    "document_title": "Electrical Guide",
+    "category": "troubleshooting",
+    "header": "Troubleshooting Guide: Electrical Drive & Power Inverter Faults",
+    "text": "Troubleshooting Guide: Electrical Drive & Power Inverter Faults",
+    "tags": [],
+    "applicable_machines": [
+      "CNC",
+      "Motor",
+      "Robotic Arm"
+    ],
+    "char_length": 63
+  },
+  {
+    "chunk_id": "electrical_guide#sec_3",
+    "source_file": "electrical_guide.txt",
+    "document_title": "Electrical Guide",
+    "category": "troubleshooting",
+    "header": "1. Electrical Signature Analysis (ESA)",
+    "text": "1. Electrical Signature Analysis (ESA)\n\n- Phase Current Balance: Maximum allowable current unbalance between phases is 5%.\n- Current Ripple / Harmonics: High 5th and 7th harmonic content indicates input rectifier bridge degradation or DC bus capacitor aging.\n- Ground Fault Leakage: Normal leakage < 30 mA; trip limit at 300 mA.",
+    "tags": [
+      "electrical",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Motor",
+      "Robotic Arm"
+    ],
+    "char_length": 328
+  },
+  {
+    "chunk_id": "electrical_guide#sec_4",
+    "source_file": "electrical_guide.txt",
+    "document_title": "Electrical Guide",
+    "category": "troubleshooting",
+    "header": "2. Common Electrical Failure Modes & Solutions",
+    "text": "2. Common Electrical Failure Modes & Solutions",
+    "tags": [],
+    "applicable_machines": [
+      "CNC",
+      "Motor",
+      "Robotic Arm"
+    ],
+    "char_length": 46
+  },
+  {
+    "chunk_id": "electrical_guide#sec_5",
+    "source_file": "electrical_guide.txt",
+    "document_title": "Electrical Guide",
+    "category": "troubleshooting",
+    "header": "Phase Overcurrent & Spikes (> 120% Nominal)",
+    "text": "Phase Overcurrent & Spikes (> 120% Nominal)\n\n- Root Cause A: Downstream mechanical binding in spindle or gearbox causing rotor stall.\n- Root Cause B: Inter-turn winding insulation puncture due to voltage surge spikes (dV/dt from PWM inverter).\n- Action: Perform motor surge test and megohmmeter insulation resistance check (> 100 Megaohms).",
+    "tags": [
+      "electrical",
+      "incident"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Spindle",
+      "Electric Motor",
+      "Gearbox",
+      "Induction Motor",
+      "Motor",
+      "Robotic Arm",
+      "Speed Reducer",
+      "Spindle"
+    ],
+    "char_length": 340
+  },
+  {
+    "chunk_id": "electrical_guide#sec_6",
+    "source_file": "electrical_guide.txt",
+    "document_title": "Electrical Guide",
+    "category": "troubleshooting",
+    "header": "Motor Thermal Overheating under Normal Load",
+    "text": "Motor Thermal Overheating under Normal Load\n\n- Root Cause A: Voltage unbalance of 3.5% induces rotor negative-sequence eddy current heating of up to 25%.\n- Action: Measure line voltages phase-to-phase under load; inspect supply contactors for pitting.\n- Root Cause B: Clogged forced cooling fan cowl or failing cooling blower fan.\n- Action: Clean motor shroud and verify auxiliary cooling fan rotation.",
+    "tags": [
+      "electrical",
+      "incident",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 402
+  },
+  {
+    "chunk_id": "hydraulic_guide#sec_2",
+    "source_file": "hydraulic_guide.txt",
+    "document_title": "Hydraulic Guide",
+    "category": "troubleshooting",
+    "header": "Troubleshooting Guide: Hydraulic Circuitry, Valves & Pressure Dynamics",
+    "text": "Troubleshooting Guide: Hydraulic Circuitry, Valves & Pressure Dynamics",
+    "tags": [
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 70
+  },
+  {
+    "chunk_id": "hydraulic_guide#sec_3",
+    "source_file": "hydraulic_guide.txt",
+    "document_title": "Hydraulic Guide",
+    "category": "troubleshooting",
+    "header": "1. Hydraulic Operational Envelope",
+    "text": "1. Hydraulic Operational Envelope\n\n- Normal working pressure: 20 - 35 bar (dependent on plant circuit).\n- Fluid cleanliness: ISO 4406 cleanliness code 17/15/12 max.\n- Maximum bulk fluid temperature: 65\u00b0C (Alarm at 70\u00b0C, emergency trip at 78\u00b0C).",
+    "tags": [
+      "bearing",
+      "hydraulic",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 244
+  },
+  {
+    "chunk_id": "hydraulic_guide#sec_4",
+    "source_file": "hydraulic_guide.txt",
+    "document_title": "Hydraulic Guide",
+    "category": "troubleshooting",
+    "header": "2. Root Cause Analysis for Hydraulic Failures",
+    "text": "2. Root Cause Analysis for Hydraulic Failures",
+    "tags": [
+      "hydraulic",
+      "incident"
+    ],
+    "applicable_machines": [
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 45
+  },
+  {
+    "chunk_id": "hydraulic_guide#sec_5",
+    "source_file": "hydraulic_guide.txt",
+    "document_title": "Hydraulic Guide",
+    "category": "troubleshooting",
+    "header": "Pressure Loss & Severe Pulsation",
+    "text": "Pressure Loss & Severe Pulsation\n\n- Root Cause A: Bladder accumulator nitrogen loss. When gas charge leaks, hydraulic shock pulses damage proportional valves.\n  - Action: Measure gas pre-charge pressure with accumulator gauge; recharge dry nitrogen to 0.65 of minimum system pressure.\n- Root Cause B: Pump suction cavitation due to clogged suction strainer or high fluid viscosity.\n  - Action: Inspect suction differential pressure gauge; clean mesh filter; verify oil heater at cold startup.",
+    "tags": [
+      "hydraulic",
+      "incident",
+      "lubrication"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 492
+  },
+  {
+    "chunk_id": "hydraulic_guide#sec_6",
+    "source_file": "hydraulic_guide.txt",
+    "document_title": "Hydraulic Guide",
+    "category": "troubleshooting",
+    "header": "Excessive System Heat & Thermal Overrun",
+    "text": "Excessive System Heat & Thermal Overrun\n\n- Root Cause: Relief valve stuck cracked open or proportional directional valve internal bypass spool wear.\n  - Action: Perform thermographic infrared scan of valve manifolds; any valve hotter than surrounding circuit indicates internal high-pressure bypass leakage.",
+    "tags": [
+      "hydraulic",
+      "incident"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 307
+  },
+  {
+    "chunk_id": "overheating_guide#sec_2",
+    "source_file": "overheating_guide.txt",
+    "document_title": "Overheating Guide",
+    "category": "troubleshooting",
+    "header": "Troubleshooting Guide: Thermal Overheating & Heat Dissipation Failures",
+    "text": "Troubleshooting Guide: Thermal Overheating & Heat Dissipation Failures",
+    "tags": [
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump"
+    ],
+    "char_length": 70
+  },
+  {
+    "chunk_id": "overheating_guide#sec_3",
+    "source_file": "overheating_guide.txt",
+    "document_title": "Overheating Guide",
+    "category": "troubleshooting",
+    "header": "1. Temperature Anomaly Signatures",
+    "text": "1. Temperature Anomaly Signatures\n\n- Normal Operating Envelope: 45\u00b0C to 75\u00b0C depending on machine duty cycle.\n- Pre-failure Thermal Drift: Steady upward temperature ramp of > 0.5\u00b0C/hour under static electrical load.\n- Critical Threshold: Casing temperature > 85\u00b0C or bearing temperature > 95\u00b0C.",
+    "tags": [
+      "bearing",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 294
+  },
+  {
+    "chunk_id": "overheating_guide#sec_4",
+    "source_file": "overheating_guide.txt",
+    "document_title": "Overheating Guide",
+    "category": "troubleshooting",
+    "header": "2. Root Cause Analysis Flowchart",
+    "text": "2. Root Cause Analysis Flowchart",
+    "tags": [
+      "incident"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump"
+    ],
+    "char_length": 32
+  },
+  {
+    "chunk_id": "overheating_guide#sec_5",
+    "source_file": "overheating_guide.txt",
+    "document_title": "Overheating Guide",
+    "category": "troubleshooting",
+    "header": "Excessive Bearing Temperature (> 90\u00b0C)",
+    "text": "Excessive Bearing Temperature (> 90\u00b0C)\n\n- Possibility A: Over-lubrication (grease churn causes fluid friction and thermal spike within 2-4 hours of greasing).\n  - Action: Vent housing relief valve and allow excess grease to purge at running temperature.\n- Possibility B: Bearing starvation or degraded lubricant varnish.\n  - Action: Check grease degradation, blackening, or acidity. Flush and replenish with fresh ISO-approved lubricant.\n- Possibility C: Excessive pre-load or axial thermal binding.\n  - Action: Measure floating bearing axial float; check thermal expansion allowances on mounting bracket.",
+    "tags": [
+      "bearing",
+      "hydraulic",
+      "lubrication",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump"
+    ],
+    "char_length": 605
+  },
+  {
+    "chunk_id": "overheating_guide#sec_6",
+    "source_file": "overheating_guide.txt",
+    "document_title": "Overheating Guide",
+    "category": "troubleshooting",
+    "header": "Drive Motor Stator Overheating",
+    "text": "Drive Motor Stator Overheating\n\n- Possibility A: Restricted cooling airflow / clogged fan cowl.\n  - Action: Clean intake shroud and verify fan rotation direction.\n- Possibility B: Voltage unbalance > 2% resulting in severe negative-sequence currents and eddy current heating.\n  - Action: Measure line-to-line phase voltages at motor terminals under full load.\n- Possibility C: Mechanical overload due to downstream process friction or jammed tool spindle.\n  - Action: Discouple driven machine and rotate rotor manually to verify mechanical free spin.",
+    "tags": [
+      "electrical",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Spindle",
+      "Compressor",
+      "Drive Motor",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Pump",
+      "Spindle"
+    ],
+    "char_length": 550
+  },
+  {
+    "chunk_id": "pressure_guide#sec_2",
+    "source_file": "pressure_guide.txt",
+    "document_title": "Pressure Guide",
+    "category": "troubleshooting",
+    "header": "Troubleshooting Guide: Pressure Surges, Pulsations & Fluid Dynamic Faults",
+    "text": "Troubleshooting Guide: Pressure Surges, Pulsations & Fluid Dynamic Faults",
+    "tags": [
+      "electrical",
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Pump"
+    ],
+    "char_length": 73
+  },
+  {
+    "chunk_id": "pressure_guide#sec_3",
+    "source_file": "pressure_guide.txt",
+    "document_title": "Pressure Guide",
+    "category": "troubleshooting",
+    "header": "1. Operating Pressure Tolerances",
+    "text": "1. Operating Pressure Tolerances\n\n- Hydraulic circuits nominal: 25 - 35 bar (Spike tolerance: <= 40 bar for < 200 ms).\n- Pneumatic systems nominal: 7 - 9 bar (Differential across filter <= 0.6 bar).\n- Dangerous Conditions: Sudden discharge drop with surge oscillations, indicating pump slip, cavitation, or unseated relief valves.",
+    "tags": [
+      "electrical",
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Compressor",
+      "Hydraulic Pump",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 330
+  },
+  {
+    "chunk_id": "pressure_guide#sec_4",
+    "source_file": "pressure_guide.txt",
+    "document_title": "Pressure Guide",
+    "category": "troubleshooting",
+    "header": "2. Common Symptoms & Diagnostic Remedies",
+    "text": "2. Common Symptoms & Diagnostic Remedies",
+    "tags": [],
+    "applicable_machines": [
+      "Compressor",
+      "Pump"
+    ],
+    "char_length": 40
+  },
+  {
+    "chunk_id": "pressure_guide#sec_5",
+    "source_file": "pressure_guide.txt",
+    "document_title": "Pressure Guide",
+    "category": "troubleshooting",
+    "header": "Symptom: High-Frequency Pressure Pulsation (> 50 Hz ripple)",
+    "text": "Symptom: High-Frequency Pressure Pulsation (> 50 Hz ripple)\n\n- Root Cause: Worn piston rings, damaged discharge valve reed, or lost nitrogen pre-charge in bladder accumulator.\n- Diagnostic Check: Measure accumulator gas bladder pressure when system is de-pressurized. Pre-charge should equal 0.6 to 0.75 of minimum system operating pressure.\n- Remediation: Recharge bladder with high-purity dry nitrogen gas; inspect check valves for seating erosion.",
+    "tags": [
+      "hydraulic",
+      "incident"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Pump"
+    ],
+    "char_length": 450
+  },
+  {
+    "chunk_id": "pressure_guide#sec_6",
+    "source_file": "pressure_guide.txt",
+    "document_title": "Pressure Guide",
+    "category": "troubleshooting",
+    "header": "Symptom: Rapid Pressure Drop under Operating Load",
+    "text": "Symptom: Rapid Pressure Drop under Operating Load\n\n- Root Cause: Internal bypass in proportional directional valve or ruptured hydraulic cylinder seal.\n- Diagnostic Check: Perform thermographic scan of valve body; localized hot spot (> 10\u00b0C delta) indicates internal bypass leakage orifice.\n- Remediation: Re-spool valve or replace cartridge seal assembly.",
+    "tags": [
+      "hydraulic",
+      "incident"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 356
+  },
+  {
+    "chunk_id": "pressure_guide#sec_7",
+    "source_file": "pressure_guide.txt",
+    "document_title": "Pressure Guide",
+    "category": "troubleshooting",
+    "header": "Symptom: Suction Cavitation & Vane Chatter",
+    "text": "Symptom: Suction Cavitation & Vane Chatter\n\n- Root Cause: Blocked suction strainer or high oil viscosity during cold startup.\n- Remediation: Inspect strainer mesh cleanliness; verify hydraulic oil tank heater is operational during startup regimes.",
+    "tags": [
+      "hydraulic",
+      "incident",
+      "lubrication",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 247
+  },
+  {
+    "chunk_id": "vibration_guide#sec_2",
+    "source_file": "vibration_guide.txt",
+    "document_title": "Vibration Guide",
+    "category": "troubleshooting",
+    "header": "Troubleshooting Guide: Machine Vibration & Mechanical Faults",
+    "text": "Troubleshooting Guide: Machine Vibration & Mechanical Faults",
+    "tags": [
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 60
+  },
+  {
+    "chunk_id": "vibration_guide#sec_3",
+    "source_file": "vibration_guide.txt",
+    "document_title": "Vibration Guide",
+    "category": "troubleshooting",
+    "header": "1. Diagnostic Matrix by Vibration Characteristic",
+    "text": "1. Diagnostic Matrix by Vibration Characteristic",
+    "tags": [
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 48
+  },
+  {
+    "chunk_id": "vibration_guide#sec_4",
+    "source_file": "vibration_guide.txt",
+    "document_title": "Vibration Guide",
+    "category": "troubleshooting",
+    "header": "Sub-harmonic Vibration (0.4X - 0.48X Running Speed)",
+    "text": "Sub-harmonic Vibration (0.4X - 0.48X Running Speed)\n\n- Primary Cause: Oil whirl / oil whip in fluid film sleeve bearings, or severe mechanical cage looseness.\n- Recommended Action: Check lubricating oil viscosity, inlet temperature, and bearing radial clearance.",
+    "tags": [
+      "bearing",
+      "lubrication",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 262
+  },
+  {
+    "chunk_id": "vibration_guide#sec_5",
+    "source_file": "vibration_guide.txt",
+    "document_title": "Vibration Guide",
+    "category": "troubleshooting",
+    "header": "1X Fundamental Vibration (1.0X Running Speed)",
+    "text": "1X Fundamental Vibration (1.0X Running Speed)\n\n- Primary Cause: Rotor mass unbalance, bent rotor shaft, or eccentrically mounted pulley/coupling.\n- Diagnostic Validation: Compare horizontal vs. vertical amplitude. Mass unbalance displays high radial amplitude with 90-degree phase difference between sensors.\n- Remediation: Inspect for dirt build-up or blade erosion. Perform dynamic two-plane trim balancing.",
+    "tags": [
+      "electrical",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 409
+  },
+  {
+    "chunk_id": "vibration_guide#sec_6",
+    "source_file": "vibration_guide.txt",
+    "document_title": "Vibration Guide",
+    "category": "troubleshooting",
+    "header": "2X Harmonic Vibration (2.0X Running Speed)",
+    "text": "2X Harmonic Vibration (2.0X Running Speed)\n\n- Primary Cause: Angular or offset shaft misalignment, or cracked rotor shaft.\n- Diagnostic Validation: High axial vibration at 2X; 180-degree phase shift across the flexible coupling.\n- Remediation: Perform laser shaft alignment to within 0.05 mm parallel and 0.04 mm/100mm angular tolerance.",
+    "tags": [
+      "electrical",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 337
+  },
+  {
+    "chunk_id": "vibration_guide#sec_7",
+    "source_file": "vibration_guide.txt",
+    "document_title": "Vibration Guide",
+    "category": "troubleshooting",
+    "header": "High-Frequency Vibration (Blade Pass / Bearing Fault Frequencies BPFO, BPFI, BSF, FTF)",
+    "text": "High-Frequency Vibration (Blade Pass / Bearing Fault Frequencies BPFO, BPFI, BSF, FTF)\n\n- Primary Cause: Outer race defect (BPFO), inner race flaking (BPFI), or gear mesh resonance.\n- Warning Signs: Acceleration crest factor > 4.5; demodulated envelope spectrum shows repetitive impacts.\n- Immediate Engineering Action: Check lubrication condition. If envelope vibration exceeds 3.5 g-pk, schedule bearing replacement within 72 hours.",
+    "tags": [
+      "bearing",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 434
+  },
+  {
+    "chunk_id": "incident_001#sec_2",
+    "source_file": "incident_001.txt",
+    "document_title": "Incident 001",
+    "category": "incident",
+    "header": "Historical Incident Report: INC-2024-089",
+    "text": "Historical Incident Report: INC-2024-089\n\nDate: 2024-03-14\nMachine ID: M17 (CNC Milling Machine / Heavy Drive)\nSeverity: Critical (Catastrophic Spindle Bearing Seizure)\nDowntime: 18.5 hours\nTotal Production Loss: $42,000",
+    "tags": [
+      "M17",
+      "bearing",
+      "incident"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Machine",
+      "CNC Spindle",
+      "Catastrophic Spindle",
+      "Spindle"
+    ],
+    "char_length": 220
+  },
+  {
+    "chunk_id": "incident_001#sec_3",
+    "source_file": "incident_001.txt",
+    "document_title": "Incident 001",
+    "category": "incident",
+    "header": "1. Sequence of Events",
+    "text": "1. Sequence of Events\n\n- 04:30 AM: Continuous telemetry recorded gradual vibration rise from baseline 1.8 mm/s to 4.2 mm/s over 3 shifts.\n- 07:15 AM: Stator temperature rose gradually from 58\u00b0C to 88\u00b0C under static 65% spindle load.\n- 09:40 AM: High-frequency demodulated accelerometer detected bearing cage rattling; alarm logged as medium priority.\n- 11:12 AM: Drive DE bearing suffered micro-welding due to grease starvation and thermal runout, seizing the drive spindle and tripping thermal breaker.",
+    "tags": [
+      "bearing",
+      "electrical",
+      "lubrication",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Spindle",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm",
+      "Spindle"
+    ],
+    "char_length": 503
+  },
+  {
+    "chunk_id": "incident_001#sec_4",
+    "source_file": "incident_001.txt",
+    "document_title": "Incident 001",
+    "category": "incident",
+    "header": "2. Root Cause",
+    "text": "2. Root Cause\n\n- Drive-end 6312-C3 ball bearing underwent lubrication starvation because the automatic grease dispenser tube was crimped during prior tooling bracket changeover.\n- Metal-to-metal contact led to exponential friction heat, raceway micro-spalling, and catastrophic seizure.",
+    "tags": [
+      "bearing",
+      "incident",
+      "lubrication"
+    ],
+    "applicable_machines": [
+      "General Industrial Equipment"
+    ],
+    "char_length": 286
+  },
+  {
+    "chunk_id": "incident_001#sec_5",
+    "source_file": "incident_001.txt",
+    "document_title": "Incident 001",
+    "category": "incident",
+    "header": "3. Corrective & Preventive Action (CAPA)",
+    "text": "3. Corrective & Preventive Action (CAPA)\n\n- Replacement of bearing 6312-C3 and spindle shaft balancing.\n- Rule established: When vibration velocity exceeds 4.5 mm/s accompanied by temperature rise > 15\u00b0C over baseline, immediate shutdown and manual grease inspection is MANDATORY.\n- Spare part requirement: Bearing 6312-C3 (Qty: 2), Viton Seal ring (Qty: 2).",
+    "tags": [
+      "bearing",
+      "hydraulic",
+      "lubrication",
+      "thermal",
+      "vibration"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Spindle",
+      "Compressor",
+      "Motor",
+      "Pump",
+      "Robotic Arm",
+      "Spindle"
+    ],
+    "char_length": 358
+  },
+  {
+    "chunk_id": "incident_002#sec_2",
+    "source_file": "incident_002.txt",
+    "document_title": "Incident 002",
+    "category": "incident",
+    "header": "Historical Incident Report: INC-2024-114",
+    "text": "Historical Incident Report: INC-2024-114\n\nDate: 2024-05-22\nMachine ID: M04 (Hydraulic Pump Station 2)\nSeverity: High (Mechanical Seal Rupture & Fluid Spillage)\nDowntime: 7.2 hours\nTotal Production Loss: $16,500",
+    "tags": [
+      "M04",
+      "hydraulic",
+      "incident"
+    ],
+    "applicable_machines": [
+      "Centrifugal Pump",
+      "Hydraulic Pump",
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 210
+  },
+  {
+    "chunk_id": "incident_002#sec_3",
+    "source_file": "incident_002.txt",
+    "document_title": "Incident 002",
+    "category": "incident",
+    "header": "1. Sequence of Events",
+    "text": "1. Sequence of Events\n\n- 14:10 PM: Discharge pressure began oscillating rapidly between 22 bar and 38 bar (+-8 bar cyclic variance).\n- 14:45 PM: Motor electrical current spiked cyclically from 42A nominal up to 58A in synchronization with pressure fluctuations.\n- 15:30 PM: Secondary barrier seal failed; primary hydraulic fluid breached containment, triggering optical fluid leak sensor and emergency interlock trip.",
+    "tags": [
+      "electrical",
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Compressor",
+      "Electric Motor",
+      "Hydraulic System",
+      "Induction Motor",
+      "Motor",
+      "Pump",
+      "Robotic Arm"
+    ],
+    "char_length": 417
+  },
+  {
+    "chunk_id": "incident_002#sec_4",
+    "source_file": "incident_002.txt",
+    "document_title": "Incident 002",
+    "category": "incident",
+    "header": "2. Root Cause",
+    "text": "2. Root Cause\n\n- Bladder accumulator lost dry nitrogen pre-charge due to Schrader valve leakage.\n- Absence of dampening caused hydraulic shock waves (water hammer), overloading mechanical seal faces and fracturing the brittle silicon carbide seal ring.",
+    "tags": [
+      "electrical",
+      "hydraulic",
+      "incident"
+    ],
+    "applicable_machines": [
+      "Hydraulic System",
+      "Pump"
+    ],
+    "char_length": 252
+  },
+  {
+    "chunk_id": "incident_002#sec_5",
+    "source_file": "incident_002.txt",
+    "document_title": "Incident 002",
+    "category": "incident",
+    "header": "3. Corrective & Preventive Action (CAPA)",
+    "text": "3. Corrective & Preventive Action (CAPA)\n\n- Replaced mechanical seal assembly (Part #PMP-SEAL-800) and recharged accumulator with nitrogen to 18 bar.\n- Scheduled monthly verification of accumulator bladder pre-charge.\n- Spare part requirement: Mechanical Seal Kit PMP-SEAL-800, Accumulator Bladder Blad-40.",
+    "tags": [
+      "hydraulic"
+    ],
+    "applicable_machines": [
+      "General Industrial Equipment"
+    ],
+    "char_length": 306
+  },
+  {
+    "chunk_id": "incident_003#sec_2",
+    "source_file": "incident_003.txt",
+    "document_title": "Incident 003",
+    "category": "incident",
+    "header": "Historical Incident Report: INC-2024-178",
+    "text": "Historical Incident Report: INC-2024-178\n\nDate: 2024-08-09\nMachine ID: M12 (Rotary Screw Compressor Unit 3)\nSeverity: Critical (Thermal Overheat Trip & Airend Rotor Thermal Binding)\nDowntime: 22.0 hours\nTotal Production Loss: $54,000",
+    "tags": [
+      "M12",
+      "incident",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "Compressor",
+      "Rotary Screw",
+      "Rotary Screw Compressor"
+    ],
+    "char_length": 233
+  },
+  {
+    "chunk_id": "incident_003#sec_3",
+    "source_file": "incident_003.txt",
+    "document_title": "Incident 003",
+    "category": "incident",
+    "header": "1. Sequence of Events",
+    "text": "1. Sequence of Events\n\n- 08:20 AM: Airend discharge temperature climbed from nominal 82\u00b0C to 96\u00b0C over 40 minutes under full delivery load.\n- 08:50 AM: Oil cooler fan current was normal, but differential oil temperature remained negligible (< 3\u00b0C delta-T across heat exchanger).\n- 09:05 AM: Unit executed emergency trip on ERR-CMP-01 (106.5\u00b0C logged).\n- Thermal expansion caused male and female rotors to touch end-faces lightly, scoring rotor coating.",
+    "tags": [
+      "electrical",
+      "lubrication",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "General Industrial Equipment"
+    ],
+    "char_length": 452
+  },
+  {
+    "chunk_id": "incident_003#sec_4",
+    "source_file": "incident_003.txt",
+    "document_title": "Incident 003",
+    "category": "incident",
+    "header": "2. Root Cause",
+    "text": "2. Root Cause\n\n- Thermostatic bypass valve wax element failed and stuck in bypass position, circulating hot oil directly back into the compression chamber without passing through the radiator cooler core.",
+    "tags": [
+      "hydraulic",
+      "incident",
+      "lubrication"
+    ],
+    "applicable_machines": [
+      "General Industrial Equipment"
+    ],
+    "char_length": 204
+  },
+  {
+    "chunk_id": "incident_003#sec_5",
+    "source_file": "incident_003.txt",
+    "document_title": "Incident 003",
+    "category": "incident",
+    "header": "3. Corrective & Preventive Action (CAPA)",
+    "text": "3. Corrective & Preventive Action (CAPA)\n\n- Replaced thermostatic bypass valve cartridge (Part #CMP-THV-620) and flushed lubricant circuit with synthetic coolant.\n- Added temperature-differential monitoring rule: If discharge temp exceeds 92\u00b0C and delta across cooler is under 8\u00b0C, flag immediate thermostatic valve fault.\n- Spare part requirement: Thermostatic Valve Kit CMP-THV-620, Coolant ISO VG 46 (50 Liters).",
+    "tags": [
+      "hydraulic",
+      "lubrication",
+      "thermal"
+    ],
+    "applicable_machines": [
+      "General Industrial Equipment"
+    ],
+    "char_length": 415
+  },
+  {
+    "chunk_id": "test_lathe_theory#sec_2",
+    "source_file": "test_lathe_theory.txt",
+    "document_title": "Test Lathe Theory",
+    "category": "theory",
+    "header": "Technical Theory: Precision Lathe Spindle",
+    "text": "Technical Theory: Precision Lathe Spindle",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "CNC Spindle",
+      "Precision Lathe Spindle",
+      "Spindle"
+    ],
+    "char_length": 41
+  },
+  {
+    "chunk_id": "test_lathe_theory#sec_3",
+    "source_file": "test_lathe_theory.txt",
+    "document_title": "Test Lathe Theory",
+    "category": "theory",
+    "header": "1. Principles",
+    "text": "1. Principles\n\nConverts motor torque into accurate chuck rotation for metal turning.",
+    "tags": [
+      "theory"
+    ],
+    "applicable_machines": [
+      "CNC",
+      "Electric Motor",
+      "Induction Motor",
+      "Motor",
+      "Precision Lathe Spindle"
+    ],
+    "char_length": 84
+  },
+  {
+    "chunk_id": "test_lathe_theory#sec_4",
+    "source_file": "test_lathe_theory.txt",
+    "document_title": "Test Lathe Theory",
+    "category": "theory",
+    "header": "2. Components",
+    "text": "2. Components\n\n- Headstock Bearings: Angular contact pair.\n- Chuck Mechanism: 3-jaw hydraulic chuck.",
+    "tags": [
+      "bearing",
+      "hydraulic",
+      "theory"
+    ],
+    "applicable_machines": [
+      "Hydraulic System",
+      "Precision Lathe Spindle",
+      "Pump"
+    ],
+    "char_length": 100
+  }
+]

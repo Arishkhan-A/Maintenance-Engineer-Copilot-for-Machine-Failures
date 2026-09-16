@@ -1,0 +1,40 @@
+# Technical Theory: Rotary Screw Compressors & Gas Thermodynamics
+
+## 1. Fundamental Principles & Governing Equations
+Oil-flooded rotary screw compressors are positive-displacement machines that reduce air or gas volume between male (4-lobe) and female (6-lobe) intermeshing helical rotors housed in a precision-bored double-cylinder casing.
+
+### Isentropic Compression Process
+Thermodynamic compression approximates polytropic/isentropic gas compression:
+P_1 * V_1^k = P_2 * V_2^k
+where k is the polytropic exponent (k approx 1.25 - 1.35 with synthetic oil cooling).
+Theoretical discharge temperature:
+T_2 = T_1 * (P_2 / P_1)^((k - 1) / k)
+The injected oil acts as a heat sink, sealing fluid across rotor blowholes, and lubricant for rolling element bearings.
+
+## 2. Component Architecture & Subsystems
+- Helical Rotors: Asymmetric profile rotors with precision ground tooth surfaces maintaining clearance of 0.03 mm - 0.06 mm.
+- Oil Separator Vessel: Two-stage mechanical cyclone impingement and coalescing filter element reducing carry-over to < 3 mg/m³.
+- Thermostatic Bypass Valve: Modulating 3-way valve maintaining oil temperature above dew point (min 68°C) to prevent moisture condensation in oil reservoir.
+- Inlet Modulation / Unloader Valve: Pneumatic servo valve regulating suction flow during unload transitions.
+- Aftercooler: Air-cooled or water-cooled fin-tube heat exchanger with automatic electronic condensate drain.
+
+## 3. Operating Parameters & Standard Thresholds
+- Working Pressure: 7.0 to 13.0 bar
+- Discharge Air-End Temperature: 78°C to 92°C (Warning: 100°C, Safety Trip: 108°C)
+- Oil Differential Pressure (Delta-P across separator element): < 0.8 bar (Replace element when Delta-P > 1.0 bar).
+- Vibration Severity Limits (ISO 10816-3):
+  - Normal: < 3.5 mm/s RMS
+  - Alert: 3.5 mm/s to 5.5 mm/s RMS
+  - Shutdown: > 7.1 mm/s RMS
+
+## 4. Theoretical Failure Modes & Physical Mechanisms
+### Thermal Runaway & Rotor Clashing
+If oil cooling flow is starved (e.g., clogged oil cooler radiator fins or seized thermostatic element), discharge temperature escalates past 105°C. Asymmetric thermal expansion of the male rotor causes loss of axial and radial clearances, leading to high-speed metal-to-metal contact ("rotor clashing"), rotor seizing, and complete airend destruction.
+
+### Moisture Condensation & Oil Emulsification
+Operating at low duty cycle or ambient humidity with oil temp < 65°C allows compressed water vapor to condense inside the sump. Water contaminates polyalphaolefin (PAO) synthetic oil, collapsing oil film thickness (lambda < 1.0) and accelerating bearing fatigue spalling.
+
+## 5. Maintenance & Diagnostic Guidelines
+- Replace oil separator coalescing element every 4,000 operating hours.
+- Perform oil chemical degradation analysis (Total Acid Number TAN < 1.0 mg KOH/g, kinematic viscosity at 40°C within +/- 10% of ISO VG 46 baseline).
+- Inspect minimum pressure valve (MPV) spring tension and check valve seal integrity.

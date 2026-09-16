@@ -1,0 +1,22 @@
+# Troubleshooting Guide: Pressure Surges, Pulsations & Fluid Dynamic Faults
+
+## 1. Operating Pressure Tolerances
+- Hydraulic circuits nominal: 25 - 35 bar (Spike tolerance: <= 40 bar for < 200 ms).
+- Pneumatic systems nominal: 7 - 9 bar (Differential across filter <= 0.6 bar).
+- Dangerous Conditions: Sudden discharge drop with surge oscillations, indicating pump slip, cavitation, or unseated relief valves.
+
+## 2. Common Symptoms & Diagnostic Remedies
+
+### Symptom: High-Frequency Pressure Pulsation (> 50 Hz ripple)
+- Root Cause: Worn piston rings, damaged discharge valve reed, or lost nitrogen pre-charge in bladder accumulator.
+- Diagnostic Check: Measure accumulator gas bladder pressure when system is de-pressurized. Pre-charge should equal 0.6 to 0.75 of minimum system operating pressure.
+- Remediation: Recharge bladder with high-purity dry nitrogen gas; inspect check valves for seating erosion.
+
+### Symptom: Rapid Pressure Drop under Operating Load
+- Root Cause: Internal bypass in proportional directional valve or ruptured hydraulic cylinder seal.
+- Diagnostic Check: Perform thermographic scan of valve body; localized hot spot (> 10°C delta) indicates internal bypass leakage orifice.
+- Remediation: Re-spool valve or replace cartridge seal assembly.
+
+### Symptom: Suction Cavitation & Vane Chatter
+- Root Cause: Blocked suction strainer or high oil viscosity during cold startup.
+- Remediation: Inspect strainer mesh cleanliness; verify hydraulic oil tank heater is operational during startup regimes.

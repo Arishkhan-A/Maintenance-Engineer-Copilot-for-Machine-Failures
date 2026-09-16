@@ -1,0 +1,31 @@
+# Technical Manual: Rotary Screw Industrial Air Compressor (Model: SCR-CMP-620)
+
+## 1. Operating Envelope
+- Capacity: 25 m³/min FAD (Free Air Delivery)
+- Maximum Discharge Pressure: 8.5 - 12.5 bar
+- Normal Airend Discharge Temperature: 78°C - 92°C (Warning: 98°C, Emergency Trip: 105°C)
+- Ambient Temperature Range: 5°C to 45°C
+- Main Drive Motor: 110 kW TEFC Induction motor, 2960 RPM direct coupled
+
+## 2. Rotor & Bearing Geometry
+- Male Rotor: 5-lobe profile, forged steel with ceramic anti-friction coating
+- Female Rotor: 6-flute profile, high-strength spheroidal graphite cast iron
+- Bearing arrangement: Roller bearings at intake, paired angular contact bearings at discharge
+- Clearance: Inter-lobe clearance 0.04 - 0.06 mm; End-face discharge clearance 0.035 mm
+
+## 3. Servicing & Component Replacement
+### Oil Separator Element Replacement
+- Service life: 4,000 hours or when pressure drop across separator exceeds 0.8 bar.
+- Residual oil content: Must remain below 3 ppm w/w in compressed discharge air.
+
+### Minimum Pressure Check Valve (MPV)
+- Inspect valve disc and spring every 8,000 operating hours.
+- Set crack open pressure at 4.2 bar gauge to preserve internal lubrication pressure before system builds header pressure.
+
+### Thermostatic Bypass Valve
+- Opens flow to oil cooler when synthetic fluid exceeds 71°C. If valve sticks closed, rapid thermal runaway occurs within 15 minutes of full-load operation.
+
+## 4. Error Codes & Telemetry Signals
+- ERR-CMP-01: High airend discharge temperature (Trip at 105°C).
+- ERR-CMP-02: Oil separator high differential pressure (> 1.0 bar).
+- ERR-CMP-03: Excessive airend vibration velocity (> 6.5 mm/s RMS).

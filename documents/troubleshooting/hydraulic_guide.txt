@@ -1,0 +1,18 @@
+# Troubleshooting Guide: Hydraulic Circuitry, Valves & Pressure Dynamics
+
+## 1. Hydraulic Operational Envelope
+- Normal working pressure: 20 - 35 bar (dependent on plant circuit).
+- Fluid cleanliness: ISO 4406 cleanliness code 17/15/12 max.
+- Maximum bulk fluid temperature: 65°C (Alarm at 70°C, emergency trip at 78°C).
+
+## 2. Root Cause Analysis for Hydraulic Failures
+
+### Pressure Loss & Severe Pulsation
+- Root Cause A: Bladder accumulator nitrogen loss. When gas charge leaks, hydraulic shock pulses damage proportional valves.
+  - Action: Measure gas pre-charge pressure with accumulator gauge; recharge dry nitrogen to 0.65 of minimum system pressure.
+- Root Cause B: Pump suction cavitation due to clogged suction strainer or high fluid viscosity.
+  - Action: Inspect suction differential pressure gauge; clean mesh filter; verify oil heater at cold startup.
+
+### Excessive System Heat & Thermal Overrun
+- Root Cause: Relief valve stuck cracked open or proportional directional valve internal bypass spool wear.
+  - Action: Perform thermographic infrared scan of valve manifolds; any valve hotter than surrounding circuit indicates internal high-pressure bypass leakage.

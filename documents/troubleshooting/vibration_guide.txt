@@ -1,0 +1,22 @@
+# Troubleshooting Guide: Machine Vibration & Mechanical Faults
+
+## 1. Diagnostic Matrix by Vibration Characteristic
+
+### Sub-harmonic Vibration (0.4X - 0.48X Running Speed)
+- Primary Cause: Oil whirl / oil whip in fluid film sleeve bearings, or severe mechanical cage looseness.
+- Recommended Action: Check lubricating oil viscosity, inlet temperature, and bearing radial clearance.
+
+### 1X Fundamental Vibration (1.0X Running Speed)
+- Primary Cause: Rotor mass unbalance, bent rotor shaft, or eccentrically mounted pulley/coupling.
+- Diagnostic Validation: Compare horizontal vs. vertical amplitude. Mass unbalance displays high radial amplitude with 90-degree phase difference between sensors.
+- Remediation: Inspect for dirt build-up or blade erosion. Perform dynamic two-plane trim balancing.
+
+### 2X Harmonic Vibration (2.0X Running Speed)
+- Primary Cause: Angular or offset shaft misalignment, or cracked rotor shaft.
+- Diagnostic Validation: High axial vibration at 2X; 180-degree phase shift across the flexible coupling.
+- Remediation: Perform laser shaft alignment to within 0.05 mm parallel and 0.04 mm/100mm angular tolerance.
+
+### High-Frequency Vibration (Blade Pass / Bearing Fault Frequencies BPFO, BPFI, BSF, FTF)
+- Primary Cause: Outer race defect (BPFO), inner race flaking (BPFI), or gear mesh resonance.
+- Warning Signs: Acceleration crest factor > 4.5; demodulated envelope spectrum shows repetitive impacts.
+- Immediate Engineering Action: Check lubrication condition. If envelope vibration exceeds 3.5 g-pk, schedule bearing replacement within 72 hours.

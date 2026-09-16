@@ -1,0 +1,33 @@
+# Technical Manual: Industrial Multistage Hydraulic Pump (Model: HYD-PMP-800)
+
+## 1. Operating Parameters
+- Maximum Flow Rate: 120 m³/h
+- Working Pressure Range: 18 - 42 bar (Differential pressure threshold: 5 bar deviation)
+- Permissible Fluid Temperature: 15°C - 75°C (Alarm at 78°C, shutdown at 85°C)
+- Operating Speed: 1450 - 1780 RPM
+- Mechanical Seal Flush Rate: Plan 11 or Plan 32 with clean barrier fluid at 2 bar above suction pressure
+
+## 2. Critical Assemblies & Tolerances
+- Impeller Clearance: Radial runout within 0.05 mm
+- Mechanical Seals: Tungsten carbide vs. silicon carbide primary faces
+- Wear Rings: Replace when diametrical clearance exceeds 0.45 mm
+- Thrust Bearings: Angular contact duplex ball bearings 7314-BEP
+
+## 3. Maintenance Protocols
+### Cavitation Prevention & NPSH Verification
+- If discharge pressure oscillates with high-frequency noise resembling gravel pumping, inspect suction strainer delta-P.
+- Clean suction strainer if differential pressure exceeds 0.8 bar.
+
+### Mechanical Seal Overhaul
+- Inspect seal face flatness using monochromatic light. Max permissible waviness: 2 helium light bands (0.6 microns).
+- Replace O-rings with fluoroelastomer (Viton) seals rated for 150°C.
+
+### Oil Reservoir Management
+- Lubricant: ISO VG 46 mineral hydraulic fluid.
+- Filter micron rating: Beta 1000 >= 10 micron.
+- Particle count limit: ISO 4406 cleanliness code 17/15/12 max.
+
+## 4. Error Codes & Diagnostic Rules
+- ERR-PMP-01: Low suction head / Cavitation risk. Suction pressure < 1.2 bar absolute.
+- ERR-PMP-02: Excessive casing vibration. Axial RMS velocity > 6.0 mm/s. Indicates misalignment or bent shaft.
+- ERR-PMP-03: Seal barrier pressure loss. Barrier fluid < suction pressure + 1.5 bar.

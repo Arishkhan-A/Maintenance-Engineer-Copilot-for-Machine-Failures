@@ -1,0 +1,50 @@
+# Technical Theory: Industrial Centrifugal Pumps & Fluid Dynamics
+
+## 1. Fundamental Principles & Governing Equations
+Centrifugal pumps convert mechanical rotational energy from a driver (electric motor or turbine) into hydrodynamic energy using centrifugal force. Fluid enters axially through the pump suction eye and is accelerated radially outward by the rotating impeller vanes.
+
+### Bernoulli's Equation and Energy Conversion
+The conversion of kinetic energy to static pressure follows Bernoulli's principle along a streamline:
+P_1 / (rho * g) + V_1^2 / (2 * g) + Z_1 = P_2 / (rho * g) + V_2^2 / (2 * g) + Z_2 + h_loss
+As fluid exits the impeller at high velocity, it passes through the expanding cross-sectional area of the volute casing or diffuser vanes, decelerating fluid velocity (V) and elevating static pressure (P).
+
+### Affinity Laws (Scaling Rules)
+For a constant impeller diameter (D):
+- Flow rate: Q_1 / Q_2 = N_1 / N_2 (Proportional to shaft speed)
+- Total Head: H_1 / H_2 = (N_1 / N_2)^2 (Proportional to square of speed)
+- Power Absorbed: P_1 / P_2 = (N_1 / N_2)^3 (Proportional to cube of speed)
+
+## 2. Component Architecture & Subsystems
+- Impeller: Closed, semi-open, or vortex designs with backward-curved vanes (optimal for head-capacity stability).
+- Casing / Volute: Spiral casing engineered to collect liquid discharged from the periphery of the impeller.
+- Mechanical Shaft Seal: Cartridge mechanical seal (API 682 Plan 11/53A) preventing pressurized process fluid leakage.
+- Shaft & Bearing Assembly: Angular contact thrust bearings (7314 BECBM) paired with deep groove radial bearings (6312) to absorb combined radial and axial hydraulic thrust.
+- Wear Rings: Replaceable casing and impeller wear rings maintaining tight clearance (0.25 mm - 0.40 mm) to limit high-pressure recirculation to suction.
+
+## 3. Operating Parameters & Standard Thresholds
+- Operating Speed: 1450 to 2950 RPM
+- Discharge Pressure: 4.0 to 16.0 bar
+- Maximum Bearing Housing Temperature: 82°C (Alarm: 75°C, Trip: 85°C)
+- Permissible Vibration Velocity (ISO 10816-7 Category 1 / Group 2):
+  - Zone A/B (Good/Acceptable): < 3.0 mm/s RMS
+  - Zone C (Alert / High Risk): 3.0 to 5.0 mm/s RMS
+  - Zone D (Critical Trip): > 5.0 mm/s RMS
+- Minimum Continuous Stable Flow (MCSF): Typically 30% to 40% of Best Efficiency Point (BEP) flow.
+
+## 4. Theoretical Failure Modes & Physical Mechanisms
+### Cavitation Dynamics & NPSH Starvation
+Cavitation occurs when local static pressure falls below the fluid vapor pressure (P_local < P_vap), causing microscopic vapor bubbles to nucleate at the impeller suction eye. When these bubbles travel into higher-pressure zones along the vane, they collapse violently (implosion pressures up to 10,000 bar and local micro-jet velocities exceeding 1000 m/s), eroding metallic impeller material (pitting) and generating high-frequency acoustic emissions (broadband noise 5 kHz - 20 kHz) and severe suction line vibration.
+Condition: Net Positive Suction Head Available (NPSHa) must exceed NPSH Required (NPSHr) by a safety margin of at least 0.5 m to 1.0 m:
+Margin = NPSHa - NPSHr >= 0.8 m.
+
+### Mechanical Seal Face Thermal Degradation & Dry Running
+Dry running or lack of flush circulation vaporizes the fluid film between rotating silicon carbide and stationary carbon seal faces, resulting in thermal heat checking, blister formation, and elastomer Viton O-ring extrusion.
+
+### Shaft Deflection & Radial Bearing Overload
+Operating below MCSF creates internal hydraulic recirculation and rotating stall, causing massive unbalanced radial forces (F_radial = K_r * rho * g * H * D_2 * b_2) that flex the shaft, leading to premature bearing cage spalling and seal leakage.
+
+## 5. Maintenance & Diagnostic Guidelines
+- Check suction strainer differential pressure weekly (Delta-P < 0.35 bar).
+- Verify dynamic balancing of impeller per ISO 1940-1 Grade G 2.5.
+- Monitor mechanical seal flush barrier pressure (maintain 1.5 bar above seal chamber pressure for Plan 53A).
+- Measure oil temperature differential across bearing housing cooling jacket.

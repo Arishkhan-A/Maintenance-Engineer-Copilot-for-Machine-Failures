@@ -1,0 +1,20 @@
+# Historical Incident Report: INC-2024-114
+Date: 2024-05-22
+Machine ID: M04 (Hydraulic Pump Station 2)
+Severity: High (Mechanical Seal Rupture & Fluid Spillage)
+Downtime: 7.2 hours
+Total Production Loss: $16,500
+
+## 1. Sequence of Events
+- 14:10 PM: Discharge pressure began oscillating rapidly between 22 bar and 38 bar (+-8 bar cyclic variance).
+- 14:45 PM: Motor electrical current spiked cyclically from 42A nominal up to 58A in synchronization with pressure fluctuations.
+- 15:30 PM: Secondary barrier seal failed; primary hydraulic fluid breached containment, triggering optical fluid leak sensor and emergency interlock trip.
+
+## 2. Root Cause
+- Bladder accumulator lost dry nitrogen pre-charge due to Schrader valve leakage.
+- Absence of dampening caused hydraulic shock waves (water hammer), overloading mechanical seal faces and fracturing the brittle silicon carbide seal ring.
+
+## 3. Corrective & Preventive Action (CAPA)
+- Replaced mechanical seal assembly (Part #PMP-SEAL-800) and recharged accumulator with nitrogen to 18 bar.
+- Scheduled monthly verification of accumulator bladder pre-charge.
+- Spare part requirement: Mechanical Seal Kit PMP-SEAL-800, Accumulator Bladder Blad-40.

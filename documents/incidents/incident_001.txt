@@ -1,0 +1,21 @@
+# Historical Incident Report: INC-2024-089
+Date: 2024-03-14
+Machine ID: M17 (CNC Milling Machine / Heavy Drive)
+Severity: Critical (Catastrophic Spindle Bearing Seizure)
+Downtime: 18.5 hours
+Total Production Loss: $42,000
+
+## 1. Sequence of Events
+- 04:30 AM: Continuous telemetry recorded gradual vibration rise from baseline 1.8 mm/s to 4.2 mm/s over 3 shifts.
+- 07:15 AM: Stator temperature rose gradually from 58°C to 88°C under static 65% spindle load.
+- 09:40 AM: High-frequency demodulated accelerometer detected bearing cage rattling; alarm logged as medium priority.
+- 11:12 AM: Drive DE bearing suffered micro-welding due to grease starvation and thermal runout, seizing the drive spindle and tripping thermal breaker.
+
+## 2. Root Cause
+- Drive-end 6312-C3 ball bearing underwent lubrication starvation because the automatic grease dispenser tube was crimped during prior tooling bracket changeover.
+- Metal-to-metal contact led to exponential friction heat, raceway micro-spalling, and catastrophic seizure.
+
+## 3. Corrective & Preventive Action (CAPA)
+- Replacement of bearing 6312-C3 and spindle shaft balancing.
+- Rule established: When vibration velocity exceeds 4.5 mm/s accompanied by temperature rise > 15°C over baseline, immediate shutdown and manual grease inspection is MANDATORY.
+- Spare part requirement: Bearing 6312-C3 (Qty: 2), Viton Seal ring (Qty: 2).

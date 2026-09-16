@@ -1,0 +1,35 @@
+# Technical Theory: 6-Axis Articulated Industrial Robots & Kinematics
+
+## 1. Fundamental Principles & Governing Equations
+Industrial 6-axis articulated robots utilize serial kinematic open chains with rotational revolute joints (J1 to J6). Coordinate spatial transformations between joint space theta = [theta_1, ..., theta_6] and Cartesian tool center point (TCP) position x = [x, y, z, roll, pitch, yaw] are governed by Denavit-Hartenberg (D-H) 4x4 homogenous transformation matrices.
+
+### Forward and Inverse Kinematics
+T_0_6 = Product(A_i(theta_i, d_i, a_i, alpha_i)) for i = 1 to 6
+Differential motion is related by the geometric Jacobian matrix J(theta):
+v_tcp = J(theta) * d(theta)/dt
+Torque required per joint under external Cartesian force F:
+tau = J^T(theta) * F + M(theta) * d2(theta)/dt2 + C(theta, d(theta)/dt) + G(theta)
+
+## 2. Component Architecture & Subsystems
+- Cycloidal Drive & Harmonic Drive Gearboxes: Zero-backlash, high-ratio (50:1 to 160:1) reduction units at primary axes (J1-J3 cycloidal, J4-J6 harmonic drive).
+- AC Permanent Magnet Synchronous Servo Motors (PMSM): High torque-to-inertia ratio with absolute optical multiturn encoders (24-bit resolution).
+- Electromechanical Holding Brakes: Spring-loaded friction brakes holding robotic arm position when unpowered.
+- Internal Cable Harness (Dress Pack): Flexible robotic conduits carrying power lines, feedback buses, and pneumatic lines subject to continuous torsional flexure.
+
+## 3. Operating Parameters & Standard Thresholds
+- Joint Temperature: 30°C to 65°C (Alarm: 70°C, Critical Trip: 80°C)
+- Positional Repeatability (ISO 9283): +/- 0.03 mm to +/- 0.08 mm
+- Gearbox Backlash Threshold: Max 1.0 arcmin for wrist axes; 1.5 arcmin for base axes.
+- Motor RMS Phase Current: < 90% of nominal rated continuous stall current.
+
+## 4. Theoretical Failure Modes & Physical Mechanisms
+### Cycloidal Drive Pin-Wheel Spalling & Backlash Degradation
+Cycloidal drive reduction occurs through eccentric cam rollers pushing cycloid disc lobes against perimeter pin rings. High-acceleration emergency stops (E-stops) induce shear stress exceeding yield strength, initiating surface spalling on cycloid lobes. This induces backlash creep, leading to path tracking errors, trajectory oscillations, and joint vibration.
+
+### Cable Harness Torsional Fatigue & Ground Faults
+Wrist rotation (Axis 6 +/- 360°) exposes internal multi-core cables to alternating torsional shear strain. Over time, individual copper stranding undergoes work hardening and fatigue breakage, leading to intermittent encoder communication errors (loss of synchronization) or 24V bus short circuits.
+
+## 5. Maintenance & Diagnostic Guidelines
+- Check and replenish gearbox lubricating grease (Molywhite RE No. 00 / Kyodo Yushi) every 5,000 running hours.
+- Perform joint brake slip holding torque test annually.
+- Inspect TCP calibration repeatability using laser tracker or dial test indicator.

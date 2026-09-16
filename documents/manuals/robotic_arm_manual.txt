@@ -1,0 +1,35 @@
+# Technical Manual: 6-Axis Articulated Industrial Robotic Arm (Model: ROB-ARM-700)
+
+## 1. Specifications & Payload
+- Nominal Payload Capacity: 50 kg
+- Reach: 2,050 mm
+- Repeatability: ± 0.03 mm
+- Servomotor Bus Voltage: 560V DC
+- Axis J1-J3 Max Speed: 180°/sec; Axis J4-J6 Max Speed: 320°/sec
+- Nominal Motor Temperature: 45°C - 70°C (Thermal alarm: 80°C)
+- Permissible Harmonic Drive / Gearbox Vibration: < 1.5 mm/s RMS
+
+## 2. Joint & Drive Train Architecture
+- Harmonic Drive Reducers on wrist axes (J4, J5, J6)
+- Cycloidal Precision Reducers on main base axes (J1, J2, J3)
+- Absolute Optical Encoders (24-bit multi-turn resolution)
+- Fail-safe electromagnetic disc brakes on all 6 axes
+
+## 3. Maintenance Protocols & Overhaul
+### Cycloidal Gearbox Lubrication
+- Lubricant: Molywhite RE No. 00 synthetic grease.
+- Replacement interval: Every 5,000 operational hours or 12 months.
+- Grease replenishment pressure: Maximum 0.3 bar to prevent blowing lip seals.
+
+### Axis Backlash Calibration
+- Measure angular backlash using dial indicator mounted on robot faceplate.
+- Re-tune servo gain parameters if backlash exceeds 0.08 arc-minutes.
+
+### Cable Harness & Flex Dress Pack
+- Inspect robot dress pack for outer polyurethane sheath chafing every 1,000 hours.
+- Perform high-pot insulation resistance test (> 50 Megaohms at 500V DC).
+
+## 4. Diagnostic Trouble Codes (DTC)
+- ERR-ROB-01: Joint 2/3 servomotor thermal overload (> 85°C).
+- ERR-ROB-02: Cycloidal gearbox excessive vibration / mechanical backlash surge (> 2.8 mm/s).
+- ERR-ROB-03: Brake release solenoid current fault.

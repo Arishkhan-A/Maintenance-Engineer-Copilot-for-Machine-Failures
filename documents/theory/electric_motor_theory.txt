@@ -1,0 +1,53 @@
+# Technical Theory: Three-Phase Induction Motors & Electromechanics
+
+## 1. Fundamental Principles & Governing Equations
+Three-phase AC induction motors operate on Faraday's Law of Electromagnetic Induction and the Lorentz Force Principle. When balanced 3-phase sinusoidal voltages are applied to the stator windings, they establish a synchronously rotating magnetic field (RMF).
+
+### Synchronous Speed and Slip Mechanics
+The synchronous speed of the stator RMF is given by:
+N_sync = (120 * f) / P
+where f is supply frequency (50 Hz or 60 Hz) and P is the number of magnetic poles.
+The mechanical rotor speed (N_rotor) must lag synchronous speed to induce rotor currents; this relative lag is normalized as Slip (s):
+s = (N_sync - N_rotor) / N_sync
+Nominal slip for NEMA Class B design: 1.5% to 4.0%.
+Electromagnetic Torque generated:
+T_em = (3 / omega_sync) * [ (V_th^2 * R_2' / s) / ( (R_th + R_2' / s)^2 + (X_th + X_2')^2 ) ]
+
+## 2. Component Architecture & Subsystems
+- Stator Core & Windings: Low-loss silicon steel laminations with Class F/H enameled copper magnet wire, vacuum-pressure impregnated (VPI) with epoxy resin.
+- Squirrel Cage Rotor: Die-cast aluminum or fabricated copper conductive bars shorted by end-rings, keyed to the central carbon-steel drive shaft.
+- Bearings: Drive-end (DE) deep groove ball bearing (e.g., 6312-2Z/C3) supporting radial loads; Non-drive-end (NDE) cylindrical roller (e.g., NU214) or spring-preloaded ball bearing absorbing thermal elongation.
+- Thermal Protection: Embedded PT100 RTDs or thermistors placed between stator phase coils in the winding slots.
+- Cooling Fan: Bi-directional plastic or cast aluminum TEFC (Totally Enclosed Fan Cooled) external fan.
+
+## 3. Operating Parameters & Standard Thresholds
+- Rated Voltage: 400V +/- 10%, 3-Phase, 50 Hz
+- Current Imbalance Limit: < 2.0% across all 3 phases (NEMA MG-1 standard). Voltage imbalance of 1% produces 6% to 10% current imbalance and massive rotor heating.
+- Maximum Stator Winding Temperature (Class F Insulation): 155°C ultimate rating, continuous alarm at 105°C, emergency trip at 130°C.
+- Permissible Vibration Velocity (ISO 10816-3 Group 1, Rigid Foundation):
+  - Normal (Zone A/B): < 2.8 mm/s RMS
+  - Alert (Zone C): 2.8 mm/s to 4.5 mm/s RMS
+  - Critical Trip (Zone D): > 4.5 mm/s RMS
+
+## 4. Theoretical Failure Modes & Physical Mechanisms
+### Stator Winding Insulation Thermal Breakdown (Arrhenius Degradation)
+Electrical insulation life follows the Arrhenius chemical reaction rate model. Under Montsinger's / Dakin's rule-of-thumb:
+For every 10°C continuous rise in operating temperature above thermal class rating, winding insulation life is halved:
+Life = Life_base * 2^(-Delta_T / 10)
+Thermal aging embrittles dielectric varnish, inducing turn-to-turn micro-shorts, phase-to-phase flashovers, and catastrophic phase-to-ground dielectric punch-through.
+
+### 4-Stage Bearing Damage Progression
+1. Stage 1 (Ultrasonic / Spike Energy): Microscopic subsurface shear stress creates subsurface micro-cracks. Detectable only by high-frequency acoustic emission (20 kHz - 40 kHz) or PeakVue / HFE metrics.
+2. Stage 2 (Natural Frequency Resonance): Defects reach bearing race surface (pitting). Bearing natural resonance frequencies (500 Hz - 2000 Hz) excite with sidebands.
+3. Stage 3 (Defect Harmonic Frequencies): Characteristic bearing frequencies appear at 1X, 2X, 3X BPFO (Outer Race), BPFI (Inner Race), BSF (Ball Spin), and FTF (Fundamental Train/Cage).
+4. Stage 4 (Gross Mechanical Breakdown): 1X running speed vibration dominates with high broadband noise floor and thermal runaway. Seizure imminent within hours.
+
+### Broken Rotor Bar Dynamics & Slip Sidebands
+Thermal stress from repeated high-inertia starting causes fatigue cracking at rotor bar and end-ring joints. Broken bars disrupt rotor magnetic symmetry, creating modulation sidebands around the supply fundamental line frequency (f_L):
+f_sideband = f_L * (1 +/- 2 * s)
+When sideband amplitude rises to within 35 dB of fundamental current peak in Motor Current Signature Analysis (MCSA), multiple broken bars are confirmed.
+
+## 5. Maintenance & Diagnostic Guidelines
+- Perform Megohmmeter insulation resistance test annually (Acceptance criterion: R_ins > 100 MOhm at 1000V DC).
+- Greasing: Replenish polyurea or lithium complex grease (NLGI Grade 2) every 2,000 to 4,000 running hours based on bearing speed factor (d_m * N).
+- Laser align coupling to within 0.05 mm angular and offset tolerance.

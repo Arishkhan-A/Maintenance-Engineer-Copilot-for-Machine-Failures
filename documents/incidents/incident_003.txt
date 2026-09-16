@@ -1,0 +1,20 @@
+# Historical Incident Report: INC-2024-178
+Date: 2024-08-09
+Machine ID: M12 (Rotary Screw Compressor Unit 3)
+Severity: Critical (Thermal Overheat Trip & Airend Rotor Thermal Binding)
+Downtime: 22.0 hours
+Total Production Loss: $54,000
+
+## 1. Sequence of Events
+- 08:20 AM: Airend discharge temperature climbed from nominal 82°C to 96°C over 40 minutes under full delivery load.
+- 08:50 AM: Oil cooler fan current was normal, but differential oil temperature remained negligible (< 3°C delta-T across heat exchanger).
+- 09:05 AM: Unit executed emergency trip on ERR-CMP-01 (106.5°C logged).
+- Thermal expansion caused male and female rotors to touch end-faces lightly, scoring rotor coating.
+
+## 2. Root Cause
+- Thermostatic bypass valve wax element failed and stuck in bypass position, circulating hot oil directly back into the compression chamber without passing through the radiator cooler core.
+
+## 3. Corrective & Preventive Action (CAPA)
+- Replaced thermostatic bypass valve cartridge (Part #CMP-THV-620) and flushed lubricant circuit with synthetic coolant.
+- Added temperature-differential monitoring rule: If discharge temp exceeds 92°C and delta across cooler is under 8°C, flag immediate thermostatic valve fault.
+- Spare part requirement: Thermostatic Valve Kit CMP-THV-620, Coolant ISO VG 46 (50 Liters).

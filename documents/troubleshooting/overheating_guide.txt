@@ -1,0 +1,24 @@
+# Troubleshooting Guide: Thermal Overheating & Heat Dissipation Failures
+
+## 1. Temperature Anomaly Signatures
+- Normal Operating Envelope: 45°C to 75°C depending on machine duty cycle.
+- Pre-failure Thermal Drift: Steady upward temperature ramp of > 0.5°C/hour under static electrical load.
+- Critical Threshold: Casing temperature > 85°C or bearing temperature > 95°C.
+
+## 2. Root Cause Analysis Flowchart
+
+### Excessive Bearing Temperature (> 90°C)
+- Possibility A: Over-lubrication (grease churn causes fluid friction and thermal spike within 2-4 hours of greasing).
+  - Action: Vent housing relief valve and allow excess grease to purge at running temperature.
+- Possibility B: Bearing starvation or degraded lubricant varnish.
+  - Action: Check grease degradation, blackening, or acidity. Flush and replenish with fresh ISO-approved lubricant.
+- Possibility C: Excessive pre-load or axial thermal binding.
+  - Action: Measure floating bearing axial float; check thermal expansion allowances on mounting bracket.
+
+### Drive Motor Stator Overheating
+- Possibility A: Restricted cooling airflow / clogged fan cowl.
+  - Action: Clean intake shroud and verify fan rotation direction.
+- Possibility B: Voltage unbalance > 2% resulting in severe negative-sequence currents and eddy current heating.
+  - Action: Measure line-to-line phase voltages at motor terminals under full load.
+- Possibility C: Mechanical overload due to downstream process friction or jammed tool spindle.
+  - Action: Discouple driven machine and rotate rotor manually to verify mechanical free spin.

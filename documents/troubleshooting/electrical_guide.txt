@@ -1,0 +1,19 @@
+# Troubleshooting Guide: Electrical Drive & Power Inverter Faults
+
+## 1. Electrical Signature Analysis (ESA)
+- Phase Current Balance: Maximum allowable current unbalance between phases is 5%.
+- Current Ripple / Harmonics: High 5th and 7th harmonic content indicates input rectifier bridge degradation or DC bus capacitor aging.
+- Ground Fault Leakage: Normal leakage < 30 mA; trip limit at 300 mA.
+
+## 2. Common Electrical Failure Modes & Solutions
+
+### Phase Overcurrent & Spikes (> 120% Nominal)
+- Root Cause A: Downstream mechanical binding in spindle or gearbox causing rotor stall.
+- Root Cause B: Inter-turn winding insulation puncture due to voltage surge spikes (dV/dt from PWM inverter).
+- Action: Perform motor surge test and megohmmeter insulation resistance check (> 100 Megaohms).
+
+### Motor Thermal Overheating under Normal Load
+- Root Cause A: Voltage unbalance of 3.5% induces rotor negative-sequence eddy current heating of up to 25%.
+- Action: Measure line voltages phase-to-phase under load; inspect supply contactors for pitting.
+- Root Cause B: Clogged forced cooling fan cowl or failing cooling blower fan.
+- Action: Clean motor shroud and verify auxiliary cooling fan rotation.

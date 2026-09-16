@@ -1,0 +1,37 @@
+# Technical Manual: Industrial Electric Drive Motor (Model: IND-MTR-450)
+
+## 1. Specifications
+- Rated Power: 45 kW
+- Operating Voltage: 400V AC, 3-Phase, 50 Hz
+- Nominal Operating RPM: 1450 - 2800 RPM
+- Nominal Current: 38 - 52 A (Full load: 60 A max)
+- Maximum Operating Temperature: 90°C (Class F insulation, alarm threshold: 85°C)
+- Permissible Vibration Velocity (RMS): 
+  - Normal: < 2.8 mm/s
+  - Alert / High Risk: 4.5 mm/s to 7.1 mm/s
+  - Critical Trip: > 7.1 mm/s (ISO 10816-3 Group 1)
+
+## 2. Component Architecture
+- Drive-end (DE) bearing: Deep groove ball bearing 6312-C3
+- Non-drive-end (NDE) bearing: Cylindrical roller bearing NU310
+- Stator winding resistance: 0.42 Ohms balanced across phases
+- Forced-air cooling fan: 0.75 kW integral fan assembly
+
+## 3. Maintenance Procedures
+### Routine Bearing Lubrication
+- Interval: Every 2,000 operating hours.
+- Grease Specification: Lithium complex grease (NLGI Grade 2, drop point > 260°C).
+- Quantity: 25g per bearing housing. Clean grease relief port prior to replenishment.
+
+### Winding Insulation Verification
+- Test: Megohmmeter test at 1000V DC.
+- Minimum Acceptance: > 100 Megaohms cold, > 10 Megaohms hot.
+
+### Rotor Dynamic Balancing
+- Required when overall unbalance vibration at 1X rotational frequency exceeds 4.0 mm/s.
+- Balance quality grade: G 2.5 per ISO 1940-1.
+
+## 4. Error Codes & Symptoms
+- ERR-MTR-01: Stator thermal overload. Stator RTD > 95°C. Immediate load shed required.
+- ERR-MTR-02: Phase current imbalance > 10%. Check supply contactor and VFD output.
+- ERR-MTR-03: Bearing high-frequency spike energy (HFE/peak vue) > 2.5 g-pk. Indicates cage micro-spalling or lack of lubrication.

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Database & artifacts
+database/*.db-journal
+
+# Environment variables & secrets
+.env
+
+# Pytest cache
+.pytest_cache/
+.coverage
