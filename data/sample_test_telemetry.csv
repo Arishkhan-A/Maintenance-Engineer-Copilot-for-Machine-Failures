@@ -1,0 +1,14 @@
+timestamp,machine_id,machine_type,vibration_rms,temperature_motor,current_phase_avg,pressure_level,rpm,operating_mode,hours_since_maintenance,ambient_temp,rul_hours,failure_within_24h,failure_type,estimated_repair_cost
+2024-03-01 08:00:00,M01,CNC,0.78,45.2,5.1,23.5,880.0,normal,120.5,24.0,180.0,0,none,0.0
+2024-03-01 08:10:00,M01,CNC,0.82,46.1,5.2,23.6,885.0,normal,120.7,24.1,179.8,0,none,0.0
+2024-03-01 08:20:00,M01,CNC,1.15,52.3,5.8,23.8,875.0,normal,120.9,24.2,165.0,0,none,0.0
+2024-03-01 08:30:00,M01,CNC,3.45,68.9,8.4,24.0,850.0,high_load,121.0,24.5,42.0,0,none,0.0
+2024-03-01 08:40:00,M01,CNC,5.85,88.4,12.2,24.2,810.0,high_load,121.2,24.8,12.5,1,bearing,3500.0
+2024-03-01 08:00:00,M08,Hydraulic_Pump,1.60,54.0,38.2,32.0,1490.0,normal,310.0,26.0,210.0,0,none,0.0
+2024-03-01 08:10:00,M08,Hydraulic_Pump,1.75,56.5,39.1,31.5,1485.0,normal,310.2,26.1,208.5,0,none,0.0
+2024-03-01 08:20:00,M08,Hydraulic_Pump,2.40,65.2,42.0,24.1,1460.0,normal,310.4,26.3,95.0,0,none,0.0
+2024-03-01 08:30:00,M08,Hydraulic_Pump,3.80,78.9,49.5,14.8,1420.0,high_load,310.5,26.5,22.0,1,hydraulic,4800.0
+2024-03-01 08:00:00,M15,Screw_Compressor,2.10,58.4,41.0,7.5,2960.0,normal,450.0,25.0,320.0,0,none,0.0
+2024-03-01 08:10:00,M15,Screw_Compressor,2.30,62.1,42.5,7.4,2955.0,normal,450.2,25.2,318.0,0,none,0.0
+2024-03-01 08:20:00,M15,Screw_Compressor,3.10,79.5,48.0,6.8,2930.0,high_load,450.4,25.5,65.0,0,none,0.0
+2024-03-01 08:30:00,M15,Screw_Compressor,4.90,96.8,59.8,5.1,2880.0,high_load,450.6,26.0,8.0,1,motor_overheat,5200.0
