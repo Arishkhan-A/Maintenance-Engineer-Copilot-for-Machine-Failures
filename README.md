@@ -1,12 +1,50 @@
 # Tier-1 Advanced Industrial Maintenance Engineer Copilot (v3.0)
 ### Full-Stack AI Platform: Multi-Class Diagnostics, Health Index, Digital CMMS Work Orders, Universal File Converter & Industrial Fluid Telemetry
 
-[![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.109%2B-green.svg)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-red.svg)](https://streamlit.io/)
-[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.4%2B-yellow.svg)](https://scikit-learn.org/)
-[![Tests](https://img.shields.io/badge/Tests-33%2F33%20Passing%20(100%25)-brightgreen.svg)]()
-[![Status](https://img.shields.io/badge/Production-Tier--1%20Advanced-success.svg)]()
+## 🛠️ Tech Stack
+
+### 💻 Core & Backend
+[![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.109%2B-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-499848?style=for-the-badge&logo=gunicorn&logoColor=white)](https://www.uvicorn.org/)
+
+### 📊 Data & Machine Learning
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-ML-FF9A00?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Joblib](https://img.shields.io/badge/Joblib-Model%20Persistence-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://joblib.readthedocs.io/)
+
+### 🧠 AI & Explainability
+[![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-8A2BE2?style=for-the-badge)](https://shap.readthedocs.io/)
+[![RAG](https://img.shields.io/badge/RAG-Domain%20Knowledge%20Retrieval-6C5CE7?style=for-the-badge)](#)
+[![ReAct](https://img.shields.io/badge/ReAct-AI%20Agent-FF6B35?style=for-the-badge)](#)
+
+### 📈 Dashboard & Visualization
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
+
+### 🗄️ Database & Data Storage
+[![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![JSON](https://img.shields.io/badge/JSON-Data%20Interchange-000000?style=for-the-badge&logo=json&logoColor=white)](#)
+[![Parquet](https://img.shields.io/badge/Parquet-Columnar%20Data-50ABF1?style=for-the-badge)](#)
+
+### 🧪 Testing & Quality
+[![Pytest](https://img.shields.io/badge/Pytest-33%2F33%20Passing-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org/)
+[![Tests](https://img.shields.io/badge/Test%20Suite-100%25%20Passing-success?style=for-the-badge)](#)
+
+### 📦 DevOps & Deployment
+[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+
+### 📄 File Processing
+[![Excel](https://img.shields.io/badge/Excel-XLSX%20%2F%20XLS-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](#)
+[![CSV](https://img.shields.io/badge/CSV-Data%20Exchange-217346?style=for-the-badge)](#)
+[![XML](https://img.shields.io/badge/XML-Data%20Format-FF6600?style=for-the-badge)](#)
+[![HTML](https://img.shields.io/badge/HTML-Data%20Ingestion-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+
+---
+
 
 ---
 
@@ -185,3 +223,166 @@ MECMF/
 .\.venv\Scripts\pytest -v tests/
 ```
 *(All 33 tests pass with 100% green)*
+---
+
+# 💰 Financial ROI Model
+
+The project includes a financial impact estimation component.
+
+The project's assumptions use:
+
+```text
+Illustrative downtime loss rate: $2,500/hour
+Estimated savings per critical event: $38,400+
+```
+
+These values are **project assumptions/estimates** and should not be interpreted as universal industrial cost benchmarks.
+
+---
+
+# 🧪 Testing & Quality Assurance
+
+MECMF includes automated testing across the major system layers.
+
+### Current Test Benchmark
+
+```text
+33 / 33 Tests Passing
+100% Green
+```
+
+### Covered Areas
+
+- AI Copilot and agent workflows
+- RAG retrieval
+- FastAPI endpoints
+- Feature engineering
+- Universal file converter
+- Machine Health Index
+- CMMS work-order generation
+- LOTO safety checks
+- ML model inference
+- Multi-class classification
+- Failure-risk prediction
+- RUL regression
+- Anomaly detection
+
+---
+
+# 🔬 Machine Learning Pipeline
+
+```text
+Raw Industrial Telemetry
+          │
+          ▼
+Data Validation
+          │
+          ▼
+Temporal Imputation
+          │
+          ▼
+Feature Engineering
+          │
+          ├── Rolling Statistics
+          ├── FFT Features
+          ├── Vibration RMS
+          ├── Temperature Δ
+          └── Physics / Kinematic Features
+          │
+          ▼
+Machine Learning Inference
+          │
+          ├── Fault Classification
+          ├── 24h Failure Risk
+          ├── RUL Prediction
+          └── Anomaly Detection
+          │
+          ▼
+SHAP Explainability
+          │
+          ▼
+Machine Health Index
+          │
+          ▼
+Maintenance Recommendation
+          │
+          ▼
+Digital CMMS Work Order
+```
+
+---
+
+# 📈 Future Scope
+
+Potential future extensions include:
+
+- Real-time industrial IoT integration
+- Streaming telemetry pipelines
+- Edge deployment
+- Cloud-based multi-plant monitoring
+- Additional machine types
+- Advanced time-series models
+- Automated model retraining
+- Real CMMS API integrations
+- Digital twin integration
+- Advanced maintenance scheduling
+- Larger engineering knowledge bases
+
+---
+
+# 🎓 Academic Project Context
+
+**Project Type :** Course Project for Anudip Foundation    
+**Degree :** B.Sc., Computer Science  
+**College :** VLB Janakiammal College of Arts and Science  
+**Project :** Maintenance Engineer Copilot for Machine Failures (MECMF)  
+**Version :** v3.0  
+**Author :** Arish Khan A
+
+---
+
+# ⚠️ Disclaimer
+
+MECMF is developed as a **course project and academic demonstration** of AI-driven predictive maintenance concepts.
+
+Predictions, maintenance recommendations, financial estimates, generated work orders, and safety-related outputs should not be treated as substitutes for:
+
+- Qualified industrial engineering judgment
+- Plant-specific safety procedures
+- OEM instructions
+- Authorized maintenance workflows
+- Applicable laws, standards, or site procedures
+
+Any real-world deployment should undergo appropriate engineering, safety, cybersecurity, validation, and operational review.
+
+---
+
+# 👨‍💻 Author
+
+## Arish Khan A
+
+**B.Sc., Computer Science**  
+**VLB Janakiammal College of Arts and Science**
+
+### Connect With Me
+
+📧 **Email:** [arishkhan6553@gmail.com](mailto:arishkhan6553@gmail.com)  
+🌐 **Portfolio:** [https://arish-portfolio-ndcn.onrender.com](https://arish-portfolio-ndcn.onrender.com)  
+💼 **LinkedIn:** [https://www.linkedin.com/in/arish-khan-a-28a16128/](https://www.linkedin.com/in/arish-khan-a-28a16128/)  
+💻 **GitHub:** [https://github.com/Arishkhan-A](https://github.com/Arishkhan-A)
+
+---
+
+# 📜 License
+
+No open-source license is currently specified for this project.
+
+---
+
+<p align="center">
+
+### 🚀 Maintenance Intelligence • Predictive Analytics • Explainable AI
+
+**Built by Arish Khan A**
+
+</p>
